@@ -1,10 +1,7 @@
 🏠 [⬅️ Quay về trang chủ](/)
 
----
-
+## 🔖
 [🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
-
----
 
 ## Tự Giới Thiệu
 ![Ảnh đại diện của tôi](assets/profile-placeholder.png) <!-- Thay thế đường dẫn này bằng ảnh thật của bạn -->
@@ -27,12 +24,8 @@
 | [💡 Kinh nghiệm làm việc](/blogs/)              | Chia sẻ về quá trình làm việc và phát triển nghề   |
 | [🌱 Trải nghiệm cuộc sống](/blogs/)             | Góc nhìn cá nhân về cuộc sống và sự nghiệp         |
 
----
-
+## 🔖
 [🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
 
----
-
+## 🏠
 🏠 [⬅️ Quay về trang chủ](/)
-
----
