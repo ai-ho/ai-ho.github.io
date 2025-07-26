@@ -1,14 +1,16 @@
-🏠 [⬅️ Quay về trang chủ](/README.md)
-#
-[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
-#
-# 🛒 Cửa Hàng Kit Phát Triển
+## Trang Chủ
+🏠 [⬅️ Quay về trang chủ](/)
+
+## Chủ Đề
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+
+## Cửa Hàng Kit Phát Triển
 
 Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phát triển dành cho lập trình nhúng! Dưới đây là một số sản phẩm phổ biến, phù hợp cho người mới bắt đầu cũng như các kỹ sư phát triển phần mềm nhúng.
 
 ---
 
-## 1. 🔵 STM32F103 Blue Pill Board
+### 1. 🔵 STM32F103 Blue Pill Board
 
 ![STM32F103 Blue Pill](../assets/stm32f103-bluepill.jpg) <!-- Thay thế bằng ảnh thật nếu có -->
 
@@ -25,7 +27,7 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 
 ---
 
-## 2. 🟣 ST-Link V2 Mini Debugger
+### 2. 🟣 ST-Link V2 Mini Debugger
 
 ![ST-Link V2 Mini](../assets/stlink-mini.jpg) <!-- Thay thế bằng ảnh thật nếu có -->
 
@@ -43,8 +45,9 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 
 > 💡 Nếu bạn cần tư vấn chọn kit hoặc hỗ trợ kỹ thuật, hãy liên hệ với tôi qua email hoặc phần bình luận bên dưới!
 
-#
-[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
-#
-🏠 [⬅️ Quay về trang chủ](/README.md)
+## Chủ Đề
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+
+## Trang Chủ
+🏠 [⬅️ Quay về trang chủ](/)
 #

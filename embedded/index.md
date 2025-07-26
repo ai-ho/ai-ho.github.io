@@ -1,8 +1,10 @@
-🏠 [⬅️ Quay về trang chủ](/README.md)
-#
-[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
-#
-# 🛠️ Lập Trình Nhúng Căn Bản
+## Trang Chủ
+🏠 [⬅️ Quay về trang chủ](/)
+
+## Chủ Đề
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+
+## 🛠️ Lập Trình Nhúng Căn Bản
 
 ![Embedded C Placeholder](../assets/embedded-c-placeholder.png) <!-- Ảnh minh họa chủ đề Embedded C -->
 
@@ -17,8 +19,8 @@
 
 Hy vọng chuyên mục này sẽ giúp bạn tự tin hơn khi bắt đầu hoặc phát triển sâu hơn trong lĩnh vực lập trình nhúng!
 
-#
-[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
-#
-🏠 [⬅️ Quay về trang chủ](/README.md)
-#
+# Chủ Đề
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+
+## Trang Chủ
+🏠 [⬅️ Quay về trang chủ](/)
