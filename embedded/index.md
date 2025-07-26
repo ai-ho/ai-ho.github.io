@@ -1,8 +1,10 @@
-## Trang Chủ
 🏠 [⬅️ Quay về trang chủ](/)
 
-## Chủ Đề
+---
+
 [🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+
+---
 
 ## 🛠️ Lập Trình Nhúng Căn Bản
 
@@ -19,8 +21,12 @@
 
 Hy vọng chuyên mục này sẽ giúp bạn tự tin hơn khi bắt đầu hoặc phát triển sâu hơn trong lĩnh vực lập trình nhúng!
 
-# Chủ Đề
+---
+
 [🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
 
-## Trang Chủ
+---
+
 🏠 [⬅️ Quay về trang chủ](/)
+
+---
