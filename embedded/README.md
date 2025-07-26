@@ -1,6 +1,6 @@
-🏠 [⬅️ Quay về trang chủ](/homepage.md)
+🏠 [⬅️ Quay về trang chủ](/README.md)
 #
-[🛠️ Lập trình nhúng căn bản](/embedded/embedded.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/automotive.md) | [💡 Kinh nghiệm làm việc](/blogs/blogs.md) | [🌱 Trải nghiệm cuộc sống](/blogs/blogs.md) | [🔌 Kit phát triển](/kits/kits.md)
+[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
 #
 # 🛠️ Lập Trình Nhúng Căn Bản
 
@@ -18,7 +18,7 @@
 Hy vọng chuyên mục này sẽ giúp bạn tự tin hơn khi bắt đầu hoặc phát triển sâu hơn trong lĩnh vực lập trình nhúng!
 
 #
-[🛠️ Lập trình nhúng căn bản](/embedded/embedded.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/automotive.md) | [💡 Kinh nghiệm làm việc](/blogs/blogs.md) | [🌱 Trải nghiệm cuộc sống](/blogs/blogs.md) | [🔌 Kit phát triển](/kits/kits.md)
+[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
 #
-🏠 [⬅️ Quay về trang chủ](/homepage.md)
+🏠 [⬅️ Quay về trang chủ](/README.md)
 #

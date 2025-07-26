@@ -1,6 +1,6 @@
-🏠 [⬅️ Quay về trang chủ](/homepage.md)
+🏠 [⬅️ Quay về trang chủ](/README.md)
 #
-[🛠️ Lập trình nhúng căn bản](/embedded/embedded.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/automotive.md) | [💡 Kinh nghiệm làm việc](/blogs/blogs.md) | [🌱 Trải nghiệm cuộc sống](/blogs/blogs.md) | [🔌 Kit phát triển](/kits/kits.md)
+[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
 #
 # 👨‍💻 Tự Giới Thiệu
 ![Ảnh đại diện của tôi](assets/profile-placeholder.png) <!-- Thay thế đường dẫn này bằng ảnh thật của bạn -->
@@ -18,13 +18,13 @@
 
 | Chủ đề                                   | Mô tả ngắn                                         |
 |-------------------------------------------|----------------------------------------------------|
-| [🛠️ Lập trình nhúng căn bản](/embedded/embedded.md)           | Những kiến thức nền tảng về lập trình nhúng         |
-| [🚗 Phần mềm nhúng trên ô tô](/automotive/automotive.md)          | Ứng dụng thực tế trong ngành công nghiệp ô tô      |
-| [💡 Kinh nghiệm làm việc](/blogs/blogs.md)              | Chia sẻ về quá trình làm việc và phát triển nghề   |
-| [🌱 Trải nghiệm cuộc sống](/blogs/blogs.md)             | Góc nhìn cá nhân về cuộc sống và sự nghiệp         |
+| [🛠️ Lập trình nhúng căn bản](/embedded/README.md)           | Những kiến thức nền tảng về lập trình nhúng         |
+| [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md)          | Ứng dụng thực tế trong ngành công nghiệp ô tô      |
+| [💡 Kinh nghiệm làm việc](/blogs/README.md)              | Chia sẻ về quá trình làm việc và phát triển nghề   |
+| [🌱 Trải nghiệm cuộc sống](/blogs/README.md)             | Góc nhìn cá nhân về cuộc sống và sự nghiệp         |
 
 #
-[🛠️ Lập trình nhúng căn bản](/embedded/embedded.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/automotive.md) | [💡 Kinh nghiệm làm việc](/blogs/blogs.md) | [🌱 Trải nghiệm cuộc sống](/blogs/blogs.md) | [🔌 Kit phát triển](/kits/kits.md)
+[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
 #
-🏠 [⬅️ Quay về trang chủ](/homepage.md)
+🏠 [⬅️ Quay về trang chủ](/README.md)
 #

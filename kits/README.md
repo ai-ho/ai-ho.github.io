@@ -1,6 +1,6 @@
-🏠 [⬅️ Quay về trang chủ](/homepage.md)
+🏠 [⬅️ Quay về trang chủ](/README.md)
 #
-[🛠️ Lập trình nhúng căn bản](/embedded/embedded.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/automotive.md) | [💡 Kinh nghiệm làm việc](/blogs/blogs.md) | [🌱 Trải nghiệm cuộc sống](/blogs/blogs.md) | [🔌 Kit phát triển](/kits/kits.md)
+[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
 #
 # 🛒 Cửa Hàng Kit Phát Triển
 
@@ -44,7 +44,7 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 > 💡 Nếu bạn cần tư vấn chọn kit hoặc hỗ trợ kỹ thuật, hãy liên hệ với tôi qua email hoặc phần bình luận bên dưới!
 
 #
-[🛠️ Lập trình nhúng căn bản](/embedded/embedded.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/automotive.md) | [💡 Kinh nghiệm làm việc](/blogs/blogs.md) | [🌱 Trải nghiệm cuộc sống](/blogs/blogs.md) | [🔌 Kit phát triển](/kits/kits.md)
+[🛠️ Lập trình nhúng căn bản](/embedded/README.md) | [🚗 Phần mềm nhúng trên ô tô](/automotive/README.md) | [💡 Kinh nghiệm làm việc](/blogs/README.md) | [🌱 Trải nghiệm cuộc sống](/blogs/README.md) | [🔌 Kit phát triển](/kits/README.md)
 #
-🏠 [⬅️ Quay về trang chủ](/homepage.md)
+🏠 [⬅️ Quay về trang chủ](/README.md)
 #
