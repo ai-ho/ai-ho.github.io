@@ -2,7 +2,7 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 
 <p align="center">
-  <img src="/assets/HoThienAi.png" alt="Ảnh đại diện của tôi" style="width:40vw; border-radius:50%; box-shadow:0 0 8px #ccc;" />
+  <img src="/assets/HoThienAi.png" alt="Ảnh đại diện của tôi" style="width:25vw; border-radius:50%; box-shadow:0 0 8px #ccc;" />
 </p>
 
 <h1 align="center">Hồ Thiện Ái</h1>
