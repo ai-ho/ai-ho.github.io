@@ -1,7 +1,7 @@
 🏠 [⬅️ Quay về trang chủ](/)
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Github của tôi](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
 
 ## Cấu trúc chương trình Embedded C
 
@@ -86,7 +86,7 @@ void TIM1_IRQHandler(void) {
 ---
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Github của tôi](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com) | [🔗 Github của tôi](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
 
 ## 🏠
 🏠 [⬅️ Quay về trang chủ](/)
