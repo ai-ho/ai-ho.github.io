@@ -5,7 +5,7 @@
 
 ## Tự Giới Thiệu
 <p align="center">
-  <img src="/assets/HoThienAi.png" alt="Ảnh đại diện của tôi" />
+  <img src="/assets/HoThienAi.png" alt="Ảnh đại diện của tôi" style="width: 100vw" />
 </p>
 
 👋 Xin chào các bạn, tôi là **Hồ Thiện Ái** – hiện đang là **Kỹ sư phần mềm nhúng cho lĩnh vực ô tô** với hơn 7 năm kinh nghiệm trong lĩnh vực này. Tôi đam mê công nghệ, đặc biệt là lập trình nhúng và các ứng dụng thực tiễn trong ngành công nghiệp ô tô.
@@ -14,7 +14,7 @@
 
 
 <p align="center">
-  <img src="/assets/EmbeddedAndBlog.png" alt="Lập trình nhúng & Blog" />
+  <img src="/assets/EmbeddedAndBlog.png" alt="Lập trình nhúng & Blog" style="width: 100vw" />
 </p>
 
 🚀 Hy vọng những chia sẻ này sẽ giúp các bạn mới bắt đầu hoặc đang theo đuổi lĩnh vực lập trình nhúng có thêm động lực, kiến thức và góc nhìn thực tế để phát triển sự nghiệp của mình.
