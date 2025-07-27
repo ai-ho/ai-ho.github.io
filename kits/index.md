@@ -12,7 +12,7 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 ### 1. 🔵 STM32F103 Blue Pill Board
 
 <p align="center">
-  <img src="/kits/assets/stm32f103.png" alt="STM32F103 Blue Pill Board" />
+  <img src="/kits/assets/stm32f103.png" alt="STM32F103 Blue Pill Board" style="width: 100vw"/>
 </p>
 
 - **Mô tả:**  
@@ -22,7 +22,6 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
   - 64KB Flash, 20KB RAM
   - 37 chân GPIO, hỗ trợ nhiều giao tiếp: UART, SPI, I2C, CAN, PWM...
   - Kích thước nhỏ gọn, dễ tích hợp vào các dự án thực tế
-- **Giá tham khảo:** 60.000 VNĐ
 
 [🛒 Đặt mua ngay](#)
 
@@ -31,7 +30,7 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 ### 2. 🟣 ST-Link V2 Mini Debugger
 
 <p align="center">
-  <img src="/kits/assets/stlink_mini_debugger.png" alt="ST-Link V2 Mini" />
+  <img src="/kits/assets/stlink_mini_debugger.png" alt="ST-Link V2 Mini" style="width: 100vw" />
 </p>
 
 - **Mô tả:**  
@@ -40,7 +39,6 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
   - Hỗ trợ nạp/chạy/debug trực tiếp trên board STM32
   - Kích thước nhỏ gọn, dễ sử dụng
   - Tương thích với phần mềm STM32CubeProgrammer, STM32CubeIDE, Keil, IAR...
-- **Giá tham khảo:** 40.000 VNĐ
 
 [🛒 Đặt mua ngay](#)
 
