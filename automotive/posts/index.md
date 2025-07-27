@@ -11,7 +11,7 @@
 
 | Chủ đề                                         | Mô tả ngắn                                               |
 |------------------------------------------------|----------------------------------------------------------|
-| [Giới thiệu về Embedded Automotive](/automotive/posts/intro/)         | Tổng quan về phần mềm nhúng trong lĩnh vực ô tô          |
+| [Giới thiệu về Embedded Automotive](/automotive/intro/)         | Tổng quan về phần mềm nhúng trong lĩnh vực ô tô          |
 | [Kiến trúc hệ thống nhúng ô tô](#)             | Các thành phần chính và kiến trúc phần mềm trên ô tô     |
 | [Giao tiếp CAN, LIN, FlexRay](#)               | Các giao thức truyền thông phổ biến trong ô tô           |
 | [Tiêu chuẩn an toàn (ISO 26262, AUTOSAR)](#)   | Các tiêu chuẩn và quy trình phát triển phần mềm an toàn  |
