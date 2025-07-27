@@ -1,7 +1,7 @@
 🏠 [⬅️ Quay về trang chủ](/)
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Github của tôi](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
 
 ## 📑 Danh sách các bài viết về embedded C
 
@@ -24,7 +24,7 @@
 🌟 Hãy theo dõi chuyên mục này để cập nhật các bài viết mới nhất về Embedded C!
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Github của tôi](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
 
 ## 🏠
 🏠 [⬅️ Quay về trang chủ](/)
