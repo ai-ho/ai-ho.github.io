@@ -5,7 +5,7 @@
 
 ## Tự Giới Thiệu
 <p align="center">
-  <img src="/assets/HoThienAi.jpg" alt="Ảnh đại diện của tôi" />
+  <img src="/assets/HoThienAi.png" alt="Ảnh đại diện của tôi" />
 </p>
 
 👋 Xin chào các bạn, tôi là **Hồ Thiện Ái** – hiện đang là **Kỹ sư phần mềm nhúng cho lĩnh vực ô tô** với hơn 7 năm kinh nghiệm trong lĩnh vực này. Tôi đam mê công nghệ, đặc biệt là lập trình nhúng và các ứng dụng thực tiễn trong ngành công nghiệp ô tô.
