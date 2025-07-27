@@ -1,7 +1,7 @@
 🏠 [⬅️ Quay về trang chủ](/)
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
 
 ## Cấu trúc chương trình Embedded C
 
@@ -39,8 +39,8 @@ void Hardware_Config(void) {
 ```
 
 ### 3. Hàm khởi tạo (Init)
-```c
 Hàm này dùng để cấu hình các ngoại vi, thanh ghi, timer, v.v.
+```c
 void System_Init(void) {
     // Cấu hình GPIO, UART, Timer, ...
 }
@@ -86,7 +86,7 @@ void TIM1_IRQHandler(void) {
 ---
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
 
 ## 🏠
 🏠 [⬅️ Quay về trang chủ](/)

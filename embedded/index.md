@@ -1,7 +1,7 @@
 🏠 [⬅️ Quay về trang chủ](/)
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
 
 ## 🛠️ Lập Trình Nhúng Căn Bản
 
@@ -16,7 +16,7 @@
 Hy vọng chuyên mục này sẽ giúp bạn tự tin hơn khi bắt đầu hoặc phát triển sâu hơn trong lĩnh vực lập trình nhúng!
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Trang GitHub](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
 
 ## 🏠
 🏠 [⬅️ Quay về trang chủ](/)
