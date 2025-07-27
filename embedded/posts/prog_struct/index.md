@@ -19,8 +19,23 @@ Một chương trình Embedded C thường có cấu trúc đơn giản nhưng r
 ```
 
 ### 2. Khai báo biến toàn cục và cấu hình phần cứng
+#### 2.1. Khai báo biến toàn cục
 ```c
 volatile uint8_t flag = 0;
+```
+#### 2.2. Cấu hình phần cứng (Hardware Configuration)
+Các bước cấu hình phần cứng thường bao gồm thiết lập các chân GPIO, cấu hình các ngoại vi như UART, SPI, I2C, Timer, ADC... để chuẩn bị cho việc vận hành chương trình.
+
+```c
+void Hardware_Config(void) {
+    // Thiết lập chân GPIO làm output
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    GPIO_InitStruct.Pin = GPIO_PIN_0;
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+    // Cấu hình UART, Timer, ADC... nếu cần
+}
 ```
 
 ### 3. Hàm khởi tạo (Init)
@@ -41,8 +56,26 @@ int main(void) {
     }
 }
 ```
+#### Giải thích về vòng lặp `while(1) or while(true)`
+Trong các chương trình Embedded C, vòng lặp `while(1) or while(true)` (hay còn gọi là vòng lặp vô hạn) là một thành phần rất quan trọng. Khi chương trình bắt đầu chạy, sau khi thực hiện các bước khởi tạo, nó sẽ đi vào vòng lặp này và liên tục thực hiện các tác vụ chính cho đến khi thiết bị bị tắt nguồn hoặc reset.
+
+- Vòng lặp này đảm bảo chương trình luôn hoạt động, liên tục kiểm tra và xử lý các sự kiện như đọc cảm biến, điều khiển thiết bị, xử lý giao tiếp, v.v.
+- Trong vòng lặp, bạn có thể gọi các hàm xử lý, kiểm tra trạng thái, hoặc phản hồi các tín hiệu từ phần cứng.
+- Đây là đặc trưng của phần mềm nhúng, vì thiết bị thường không có hệ điều hành hoặc không cần thoát chương trình như trên máy tính cá nhân.
+
 ### 5. Các hàm xử lý ngoại vi, ngắt, giao tiếp
 Các hàm này giúp chương trình tương tác với phần cứng và xử lý các sự kiện thực tế.
+#### Ví dụ về hàm xử lý ngắt (Interrupt Handler)
+```c
+// Hàm xử lý ngắt Timer
+void TIM1_IRQHandler(void) {
+    if (TIM1->SR & TIM_SR_UIF) { // Kiểm tra cờ ngắt
+        TIM1->SR &= ~TIM_SR_UIF; // Xóa cờ ngắt
+        // Thực hiện tác vụ khi có ngắt timer
+        flag = 1;
+    }
+}
+```
 
 💡 Việc tổ chức chương trình rõ ràng, tách biệt các chức năng sẽ giúp mã nguồn dễ bảo trì, mở rộng và giảm thiểu lỗi khi phát triển phần mềm nhúng.
 
