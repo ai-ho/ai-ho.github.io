@@ -1,7 +1,7 @@
 🏠 [⬅️ Quay về trang chủ](/)
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
 
 ## Tự Giới Thiệu
 <p align="center">
@@ -25,11 +25,11 @@
 |-------------------------------------------|----------------------------------------------------|
 | [🛠️ Lập trình nhúng căn bản](/embedded/)           | Những kiến thức nền tảng về lập trình nhúng         |
 | [🚗 Phần mềm nhúng trên ô tô](/automotive/)          | Ứng dụng thực tế trong ngành công nghiệp ô tô      |
-| [💡 Kinh nghiệm làm việc](/blogs/)              | Chia sẻ về quá trình làm việc và phát triển nghề   |
-| [🌱 Trải nghiệm cuộc sống](/blogs/)             | Góc nhìn cá nhân về cuộc sống và sự nghiệp         |
+| [💡 Kinh nghiệm làm việc](/blog/)              | Chia sẻ về quá trình làm việc và phát triển nghề   |
+| [🌱 Trải nghiệm cuộc sống](/blog/)             | Góc nhìn cá nhân về cuộc sống và sự nghiệp         |
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
 
 ## 🏠
 🏠 [⬅️ Quay về trang chủ](/)
