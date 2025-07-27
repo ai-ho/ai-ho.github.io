@@ -12,7 +12,7 @@
 | Chủ đề                                   | Mô tả ngắn                                      |
 |-------------------------------------------|-------------------------------------------------|
 | [Giới thiệu về Embedded C](/embedded/posts/intro/)             | Tổng quan về Embedded C và ứng dụng thực tế      |
-| [Cấu trúc chương trình Embedded C](#)     | Các thành phần cơ bản trong một chương trình     |
+| [Cấu trúc chương trình Embedded C](/embedded/posts/prog_struct/)     | Các thành phần cơ bản trong một chương trình     |
 | [Quản lý bộ nhớ trong Embedded C](#)      | Biến, kiểu dữ liệu, con trỏ và phạm vi sử dụng   |
 | [Hàm và tổ chức mã nguồn](#)              | Cách xây dựng hàm và quản lý mã nguồn hiệu quả   |
 | [Truy cập thanh ghi phần cứng](#)         | Kỹ thuật thao tác trực tiếp với phần cứng        |
