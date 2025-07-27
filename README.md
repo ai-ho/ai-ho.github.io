@@ -1,6 +1,3 @@
-<!-- Add favicon -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-
 🏠 [⬅️ Quay về trang chủ](/)
 
 ## 🔖
