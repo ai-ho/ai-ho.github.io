@@ -11,7 +11,9 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 
 ### 1. 🔵 STM32F103 Blue Pill Board
 
-![STM32F103 Blue Pill](../assets/stm32f103-bluepill.jpg) <!-- Thay thế bằng ảnh thật nếu có -->
+<p align="center">
+  <img src="/kits/assets/stm32f103.png" alt="STM32F103 Blue Pill Board" />
+</p>
 
 - **Mô tả:**  
   Board phát triển sử dụng vi điều khiển STM32F103C8T6 của STMicroelectronics, rất phổ biến trong cộng đồng maker và kỹ sư nhúng.
@@ -28,7 +30,9 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 
 ### 2. 🟣 ST-Link V2 Mini Debugger
 
-![ST-Link V2 Mini](../assets/stlink-mini.jpg) <!-- Thay thế bằng ảnh thật nếu có -->
+<p align="center">
+  <img src="/kits/assets/stlink_mini_debugger.png" alt="ST-Link V2 Mini" />
+</p>
 
 - **Mô tả:**  
   Bộ nạp/chương trình và debug cho các dòng vi điều khiển STM32, STM8.
@@ -42,7 +46,7 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 
 ---
 
-> 💡 Nếu bạn cần tư vấn chọn kit hoặc hỗ trợ kỹ thuật, hãy liên hệ với tôi qua email hoặc phần bình luận bên dưới!
+> 💡 Nếu bạn cần tư vấn chọn kit hoặc hỗ trợ kỹ thuật, hãy liên hệ với tôi qua email!
 
 ## 🔖
 [🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
