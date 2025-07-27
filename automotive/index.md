@@ -1,7 +1,15 @@
-🏠 [⬅️ Quay về trang chủ](/)
-
-## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Github của tôi](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
+<div style="border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-radius:0px; padding:16px; margin:24px 0;">
+  <p align="center">
+    <a href="/"><strong>🏠 Trang chủ</strong></a> |
+    <a href="/embedded/"><strong>🛠️ Lập trình nhúng căn bản</strong></a> |
+    <a href="/automotive/"><strong>🚗 Phần mềm nhúng ô tô</strong></a> |
+    <a href="/blog/"><strong>💡 Kinh nghiệm làm việc</strong></a> |
+    <a href="/blog/"><strong>🌱 Trải nghiệm cuộc sống</strong></a> |
+    <a href="/kits/"><strong>🔌 Kit phát triển</strong></a> |
+    <a href="https://github.com/hothienai"><strong>🔗 Github của tôi</strong></a> |
+    <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
+  </p>
+</div>
 
 ## 🚗 Lĩnh Vực Automotive
 
@@ -13,9 +21,10 @@
 
 👉 [Danh sách các bài viết về lập trình nhúng ô tô](/automotive/posts/)
 
-## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/) | [🔗 Github của tôi](https://github.com/hothienai) | [✉️ Liên hệ](mailto:thienaiho95@gmail.com)
-
-
-## 🏠
-🏠 [⬅️ Quay về trang chủ](/)
+<div style="border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-radius:0px; padding:16px; margin:24px 0;">
+  <p align="center">
+    <a href="/"><strong>🏠 Quay về trang chủ</strong></a> |
+    <a href="https://github.com/hothienai"><strong>🔗 Github của tôi</strong></a> |
+    <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
+  </p>
+</div>

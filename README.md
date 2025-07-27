@@ -2,7 +2,7 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 
 <p align="center">
-  <img src="/assets/HoThienAi.png" alt="Ảnh đại diện của tôi" style="width:120px; border-radius:50%; box-shadow:0 0 8px #ccc;" />
+  <img src="/assets/HoThienAi.png" alt="Ảnh đại diện của tôi" style="width:40vw; border-radius:50%; box-shadow:0 0 8px #ccc;" />
 </p>
 
 <h1 align="center">Hồ Thiện Ái</h1>
@@ -11,15 +11,16 @@
 </p>
 
 <div style="border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-radius:0px; padding:16px; margin:24px 0;">
-  <a href="/"><strong>🏠 Trang chủ</strong></a> |
-  <a href="/embedded/"><strong>🛠️ Lập trình nhúng căn bản</strong></a> |
-  <a href="/automotive/"><strong>🚗 Phần mềm nhúng ô tô</strong></a> |
-  <a href="/blog/"><strong>💡 Kinh nghiệm làm việc</strong></a> |
-  <a href="/blog/"><strong>🌱 Trải nghiệm cuộc sống</strong></a> |
-  <a href="/kits/"><strong>🔌 Kit phát triển</strong></a> |
-  <a href="https://github.com/hothienai"><strong>🔗 Github</strong></a> |
-  <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
-</p>
+  <p align="center">
+    <a href="/"><strong>🏠 Trang chủ</strong></a> |
+    <a href="/embedded/"><strong>🛠️ Lập trình nhúng căn bản</strong></a> |
+    <a href="/automotive/"><strong>🚗 Phần mềm nhúng ô tô</strong></a> |
+    <a href="/blog/"><strong>💡 Kinh nghiệm làm việc</strong></a> |
+    <a href="/blog/"><strong>🌱 Trải nghiệm cuộc sống</strong></a> |
+    <a href="/kits/"><strong>🔌 Kit phát triển</strong></a> |
+    <a href="https://github.com/hothienai"><strong>🔗 Github của tôi</strong></a> |
+    <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
+  </p>
 </div>
 
 ## 🚀 Chào mừng đến với Blog của Hồ Thiện Ái!
