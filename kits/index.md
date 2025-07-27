@@ -1,7 +1,7 @@
 🏠 [⬅️ Quay về trang chủ](/)
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
 
 ## Cửa Hàng Kit Phát Triển
 
@@ -49,7 +49,7 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 > 💡 Nếu bạn cần tư vấn chọn kit hoặc hỗ trợ kỹ thuật, hãy liên hệ với tôi qua email!
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
 
 ## 🏠
 🏠 [⬅️ Quay về trang chủ](/)

@@ -1,7 +1,7 @@
 🏠 [⬅️ Quay về trang chủ](/)
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
 
 ## 🚗 Lĩnh Vực Automotive
 
@@ -13,7 +13,7 @@
 
 
 ## 🔖
-[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blogs/) | [🌱 Trải nghiệm cuộc sống](/blogs/) | [🔌 Kit phát triển](/kits/)
+[🛠️ Lập trình nhúng căn bản](/embedded/) | [🚗 Phần mềm nhúng trên ô tô](/automotive/) | [💡 Kinh nghiệm làm việc](/blog/) | [🌱 Trải nghiệm cuộc sống](/blog/) | [🔌 Kit phát triển](/kits/)
 
 
 ## 🏠
