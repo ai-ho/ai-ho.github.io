@@ -1,24 +1,8 @@
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'YOUR_GA_MEASUREMENT_ID');
-</script>
-
-<div style="border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-radius:0px; padding:16px; margin:24px 0;">
-  <p align="center">
-    <a href="/"><strong>🏠 Trang chủ</strong></a> |
-    <a href="/embedded/"><strong>🛠️ Lập trình nhúng căn bản</strong></a> |
-    <a href="/automotive/"><strong>🚗 Phần mềm nhúng ô tô</strong></a> |
-    <a href="/blog/"><strong>💡 Kinh nghiệm làm việc</strong></a> |
-    <a href="/blog/"><strong>🌱 Trải nghiệm cuộc sống</strong></a> |
-    <a href="/kits/"><strong>🔌 Kit phát triển</strong></a> |
-    <a href="https://github.com/ai-ho"><strong>🔗 Github của tôi</strong></a> |
-    <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
-  </p>
-</div>
+---
+layout: default
+title: "Giới thiệu về Phần mềm nhúng ô tô"
+description: "Tổng quan về phần mềm nhúng trong ngành công nghiệp ô tô"
+---
 
 ## Giới thiệu về Embedded Automotive
 
@@ -49,14 +33,4 @@ Ngành Embedded Automotive đang phát triển mạnh mẽ với các xu hướn
 
 ---
 
-👉 [Danh sách các bài viết về embedded C](/embedded/posts/)
-
----
-
-<div style="border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-radius:0px; padding:16px; margin:24px 0;">
-  <p align="center">
-    <a href="/"><strong>🏠 Quay về trang chủ</strong></a> |
-    <a href="https://github.com/ai-ho"><strong>🔗 Github của tôi</strong></a> |
-    <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
-  </p>
-</div>
+👉 [Danh sách các bài viết về automotive](/automotive/posts/)

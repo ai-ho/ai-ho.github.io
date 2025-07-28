@@ -1,9 +1,8 @@
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'YOUR_GA_MEASUREMENT_ID');
-</script>
+---
+layout: default
+title: "Giới thiệu về Embedded C"
+description: "Tổng quan về ngôn ngữ lập trình Embedded C và ứng dụng trong hệ thống nhúng"
+---
 
 ## Giới thiệu về Embedded C
 
