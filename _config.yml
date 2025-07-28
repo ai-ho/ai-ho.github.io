@@ -21,7 +21,7 @@ kramdown:
       line_numbers: false
 
 # GitHub Pages settings
-theme: minima
+# theme: minima  # Commented out to use custom layout
 
 # Plugins (GitHub Pages whitelist)
 plugins:
