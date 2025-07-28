@@ -4,7 +4,7 @@ description: "Kỹ sư phần mềm nhúng ô tô | Chia sẻ kiến thức & ki
 url: "https://ai-ho.github.io"
 baseurl: ""
 
-# Google Analytics - Change this to your actual ID
+# Google Analytics
 google_analytics: "G-CQRTK1N3QH"
 
 # Jekyll settings
@@ -12,27 +12,10 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Syntax highlighting
-kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-
-# GitHub Pages settings
-# theme: minima  # Commented out to use custom layout
-
 # Plugins (GitHub Pages whitelist)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Exclude files from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
   - node_modules
   - vendor/bundle/
   - vendor/cache/
