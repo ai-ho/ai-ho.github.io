@@ -1,9 +1,3 @@
----
-layout: default
-title: "Danh sách bài viết về Embedded C"
-description: "Tổng hợp các bài viết về lập trình nhúng với Embedded C"
----
-
 ## 📑 Danh sách các bài viết về embedded C
 
 <p align="center">

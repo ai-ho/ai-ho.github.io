@@ -1,9 +1,3 @@
----
-layout: default
-title: "Giới thiệu về Embedded C"
-description: "Tổng quan về ngôn ngữ lập trình Embedded C và ứng dụng trong hệ thống nhúng"
----
-
 ## Giới thiệu về Embedded C
 
 <p align="center">

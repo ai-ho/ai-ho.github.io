@@ -1,9 +1,3 @@
----
-layout: default
-title: "Trang chủ"
-description: "Kỹ sư phần mềm nhúng ô tô | Chia sẻ kiến thức & kinh nghiệm thực tế"
----
-
 <p align="center">
   <img src="/assets/HoThienAi.png" alt="Ảnh đại diện của tôi" style="width:25vw; border-radius:50%; box-shadow:0 0 8px #ccc;" />
 </p>

@@ -1,9 +1,3 @@
----
-layout: default
-title: "Cấu trúc chương trình Embedded C"
-description: "Tìm hiểu về cấu trúc cơ bản của một chương trình Embedded C"
----
-
 ## Cấu trúc chương trình Embedded C
 
 <p align="center">
