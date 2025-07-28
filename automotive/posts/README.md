@@ -1,9 +1,3 @@
----
-layout: default
-title: "Danh sách bài viết về Phần mềm nhúng ô tô"
-description: "Tổng hợp các bài viết về phần mềm nhúng trong ngành ô tô"
----
-
 ## 📑 Danh sách các bài viết về lập trình nhúng ô tô
 
 <p align="center">
