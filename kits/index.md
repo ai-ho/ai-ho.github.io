@@ -4,9 +4,7 @@ title: "Kit Phát Triển"
 description: "Các kit phát triển và công cụ hỗ trợ lập trình nhúng"
 ---
 
-## Cửa Hàng Kit Phát Triển
-
-Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phát triển dành cho lập trình nhúng! Dưới đây là một số sản phẩm phổ biến, phù hợp cho người mới bắt đầu cũng như các kỹ sư phát triển phần mềm nhúng.
+{% include_relative README.md %}
 
 ---
 
