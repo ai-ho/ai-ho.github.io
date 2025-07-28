@@ -6,7 +6,7 @@
     <a href="/blog/"><strong>💡 Kinh nghiệm làm việc</strong></a> |
     <a href="/blog/"><strong>🌱 Trải nghiệm cuộc sống</strong></a> |
     <a href="/kits/"><strong>🔌 Kit phát triển</strong></a> |
-    <a href="https://github.com/hothienai"><strong>🔗 Github của tôi</strong></a> |
+    <a href="https://github.com/ai-ho"><strong>🔗 Github của tôi</strong></a> |
     <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
   </p>
 </div>
@@ -39,7 +39,7 @@ Hy vọng phần giới thiệu này sẽ giúp bạn hiểu rõ hơn về Embed
 <div style="border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-radius:0px; padding:16px; margin:24px 0;">
   <p align="center">
     <a href="/"><strong>🏠 Quay về trang chủ</strong></a> |
-    <a href="https://github.com/hothienai"><strong>🔗 Github của tôi</strong></a> |
+    <a href="https://github.com/ai-ho"><strong>🔗 Github của tôi</strong></a> |
     <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
   </p>
 </div>
