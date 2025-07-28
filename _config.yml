@@ -12,6 +12,14 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+# Syntax highlighting
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+
 # GitHub Pages settings
 theme: minima
 
