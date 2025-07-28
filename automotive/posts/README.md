@@ -1,3 +1,12 @@
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'YOUR_GA_MEASUREMENT_ID');
+</script>
+
 <div style="border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-radius:0px; padding:16px; margin:24px 0;">
   <p align="center">
     <a href="/"><strong>🏠 Trang chủ</strong></a> |

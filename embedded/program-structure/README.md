@@ -1,3 +1,12 @@
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'YOUR_GA_MEASUREMENT_ID');
+</script>
+
 <div style="border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-radius:0px; padding:16px; margin:24px 0;">
   <p align="center">
     <a href="/"><strong>🏠 Trang chủ</strong></a> |
@@ -14,7 +23,7 @@
 ## Cấu trúc chương trình Embedded C
 
 <p align="center">
-  <img src="/embedded/posts/prog_struct/img/prog_struct.png" alt="Cấu trúc chương trình Embedded C" style="width: 100vw" />
+  <img src="/embedded/program-structure/img/prog_struct.png" alt="Cấu trúc chương trình Embedded C" style="width: 100vw" />
 </p>
 
 Một chương trình Embedded C thường có cấu trúc đơn giản nhưng rất chặt chẽ để đảm bảo hiệu năng và độ tin cậy khi chạy trên vi điều khiển hoặc các hệ thống nhúng. Dưới đây là các thành phần cơ bản của một chương trình Embedded C:
