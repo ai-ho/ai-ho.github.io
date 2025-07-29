@@ -208,10 +208,11 @@
             justify-content: space-between;
         }
         
-        .navigation .nav-links {
-            flex: 1;
-            text-align: center;
-            margin-left: 20px;
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
         }
         
         .navigation .nav-avatar {
@@ -220,12 +221,23 @@
             border-radius: 50%;
             border: none;
             transition: opacity 0.2s ease;
-            flex-shrink: 0;
-            margin-right: auto;
         }
         
         .navigation .nav-avatar:hover {
             opacity: 0.8;
+        }
+        
+        .nav-name {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #24292f;
+        }
+        
+        .navigation .nav-links {
+            flex: 1;
+            text-align: right;
+            margin-left: 20px;
         }
         
         .navigation a {
@@ -509,6 +521,11 @@
                 gap: 12px;
             }
             
+            .nav-brand {
+                order: 1;
+                justify-content: center;
+            }
+            
             .navigation .nav-links {
                 text-align: center;
                 margin-left: 0;
@@ -518,9 +535,10 @@
             .navigation .nav-avatar {
                 width: 28px;
                 height: 28px;
-                margin-right: 0;
-                align-self: center;
-                order: 1;
+            }
+            
+            .nav-name {
+                font-size: 14px;
             }
             
             .navigation a {
@@ -563,7 +581,10 @@
 <body>
     <!-- Navigation Menu -->
     <div class="navigation">
-      <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
+      <div class="nav-brand">
+        <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
+        <span class="nav-name">Hồ Thiện Ái</span>
+      </div>
       <div class="nav-links">
         <a href="/"><strong>🏠 Trang chủ</strong></a> |
         <a href="/embedded/"><strong>🛠️ Lập trình nhúng căn bản</strong></a> |
