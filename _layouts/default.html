@@ -244,6 +244,72 @@
             border-bottom: none;
         }
         
+        /* Footer */
+        .footer {
+            border-top: 1px solid #d1d9e0;
+            padding: 24px 0;
+            margin-top: 40px;
+            background: #f6f8fa;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            color: #656d76;
+            font-size: 12px;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #0969da;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-info {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-avatar {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                gap: 16px;
+                text-align: center;
+            }
+            
+            .footer-links {
+                order: 1;
+            }
+            
+            .footer-info {
+                order: 2;
+                justify-content: center;
+            }
+        }
+        
         /* Code Blocks and Syntax Highlighting - VS Code Dark Theme */
         code {
             background: #1e1e1e;
@@ -515,15 +581,26 @@
         {{ content }}
     </main>
 
-    <!-- Footer Navigation -->
-    <div class="navigation">
-      <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
-      <div class="nav-links">
-        <a href="/"><strong>🏠 Quay về trang chủ</strong></a> |
-        <a href="https://github.com/ai-ho"><strong>🔗 Github của tôi</strong></a> |
-        <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
-      </div>
-    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/">Trang chủ</a>
+                <a href="/blog/">Blog</a>
+                <a href="/embedded/">Embedded</a>
+                <a href="/automotive/">Automotive</a>
+                <a href="/kits/">Kits</a>
+                <a href="https://github.com/ai-ho">GitHub</a>
+                <a href="mailto:thienaiho95@gmail.com">Liên hệ</a>
+            </div>
+            <div class="footer-info">
+                <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="footer-avatar">
+                <span>© 2025 Hồ Thiện Ái</span>
+                <span>•</span>
+                <span>Kỹ sư phần mềm nhúng ô tô</span>
+            </div>
+        </div>
+    </footer>
     
     <!-- Copy to clipboard functionality -->
     <script>
