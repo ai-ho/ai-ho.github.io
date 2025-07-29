@@ -183,7 +183,7 @@
         .navigation .nav-links {
             flex: 1;
             text-align: center;
-            margin-right: 20px;
+            margin-left: 20px;
         }
         
         .navigation .nav-avatar {
@@ -194,7 +194,7 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
             transition: transform 0.2s ease;
             flex-shrink: 0;
-            margin-left: auto;
+            margin-right: auto;
         }
         
         .navigation .nav-avatar:hover {
@@ -404,22 +404,22 @@
             
             .navigation {
                 padding: 15px;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
+                flex-direction: column;
+                gap: 15px;
             }
             
             .navigation .nav-links {
-                text-align: left;
-                margin-right: 15px;
-                flex: 1;
-                min-width: 200px;
+                text-align: center;
+                margin-left: 0;
+                order: 2;
             }
             
             .navigation .nav-avatar {
                 width: 42px;
                 height: 42px;
-                margin-left: 0;
+                margin-right: 0;
+                align-self: center;
+                order: 1;
             }
             
             .navigation a {
@@ -461,6 +461,7 @@
 <body>
     <!-- Navigation Menu -->
     <div class="navigation">
+      <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
       <div class="nav-links">
         <a href="/"><strong>🏠 Trang chủ</strong></a> |
         <a href="/embedded/"><strong>🛠️ Lập trình nhúng căn bản</strong></a> |
@@ -471,7 +472,6 @@
         <a href="https://github.com/ai-ho"><strong>🔗 Github của tôi</strong></a> |
         <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
       </div>
-      <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
     </div>
 
     <!-- Page Content -->
@@ -481,12 +481,12 @@
 
     <!-- Footer Navigation -->
     <div class="navigation">
+      <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
       <div class="nav-links">
         <a href="/"><strong>🏠 Quay về trang chủ</strong></a> |
         <a href="https://github.com/ai-ho"><strong>🔗 Github của tôi</strong></a> |
         <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
       </div>
-      <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
     </div>
     
     <!-- Copy to clipboard functionality -->
