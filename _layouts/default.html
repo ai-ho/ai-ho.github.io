@@ -8,8 +8,15 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
-    
-    <!-- Google Fonts for Charter -->
+      <div class="nav-links">
+        <a href="/"><strong>🏠 Trang chủ</strong></a> |
+        <a href="/embedded/"><strong>🛠️ Lập trình nhúng căn bản</strong></a> |
+        <a href="/automotive/"><strong>🚗 Phần mềm nhúng ô tô</strong></a> |
+        <a href="/blog/"><strong>📝 Blog</strong></a> |
+        <a href="/kits/"><strong>🔌 Kit phát triển</strong></a> |
+        <a href="https://github.com/ai-ho"><strong>🔗 Github của tôi</strong></a> |
+        <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
+      </div> <!-- Google Fonts for Charter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Charter:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -201,12 +208,15 @@
         .navigation {
             background: #fff;
             border-bottom: 1px solid #d1d9e0;
-            padding: 16px 0;
+            padding: 16px 20px;
             margin: 0 0 24px 0;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             gap: 12px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         .nav-brand {
@@ -238,6 +248,7 @@
         .navigation .nav-links {
             text-align: left;
             margin-left: 0;
+            line-height: 1.5;
         }
         
         .navigation a {
@@ -245,9 +256,10 @@
             color: #24292f;
             font-weight: 500;
             text-decoration: none;
-            padding: 8px 16px;
+            padding: 6px 8px;
             border-radius: 6px;
             transition: background-color 0.2s ease;
+            display: inline-block;
             margin: 0 4px;
         }
         
@@ -516,9 +528,11 @@
             }
             
             .navigation {
-                padding: 12px 0;
+                padding: 12px 15px;
                 gap: 8px;
                 align-items: center;
+                margin-left: 0;
+                margin-right: 0;
             }
             
             .nav-brand {
