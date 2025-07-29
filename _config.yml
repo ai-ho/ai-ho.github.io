@@ -16,6 +16,9 @@ permalink: pretty
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+# Exclude from processing
+exclude:
   - node_modules
   - vendor/bundle/
   - vendor/cache/
