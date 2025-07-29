@@ -234,33 +234,8 @@
             position: relative;
         }
         
-        /* VS Code window header simulation */
-        .highlight::before {
-            content: '● ● ●';
-            position: absolute;
-            top: 8px;
-            left: 15px;
-            color: #ff5f56;
-            font-size: 12px;
-            letter-spacing: 4px;
-        }
-        
-        .highlight::after {
-            content: 'C';
-            position: absolute;
-            top: 6px;
-            right: 15px;
-            color: #569cd6;
-            font-size: 11px;
-            font-weight: bold;
-            background: rgba(86, 156, 214, 0.1);
-            padding: 2px 6px;
-            border-radius: 3px;
-            border: 1px solid #569cd6;
-        }
-        
         .highlight pre {
-            margin: 20px 0 0 0;
+            margin: 0;
             padding: 0;
             background: transparent;
             border: none;
@@ -380,14 +355,6 @@
             .navigation a {
                 display: inline-block;
                 margin: 5px;
-            }
-            
-            .highlight::before {
-                display: none; /* Hide window controls on mobile */
-            }
-            
-            .highlight::after {
-                display: none; /* Hide language indicator on mobile */
             }
         }
         
