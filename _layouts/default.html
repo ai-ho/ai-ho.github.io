@@ -183,6 +183,7 @@
         .navigation .nav-links {
             flex: 1;
             text-align: center;
+            margin-right: 20px;
         }
         
         .navigation .nav-avatar {
@@ -192,6 +193,8 @@
             border: 2px solid white;
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
             transition: transform 0.2s ease;
+            flex-shrink: 0;
+            margin-left: auto;
         }
         
         .navigation .nav-avatar:hover {
@@ -401,26 +404,28 @@
             
             .navigation {
                 padding: 15px;
-                flex-direction: column;
-                gap: 15px;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
             }
             
             .navigation .nav-links {
-                text-align: center;
-                order: 2;
+                text-align: left;
+                margin-right: 15px;
+                flex: 1;
+                min-width: 200px;
             }
             
             .navigation .nav-avatar {
-                order: 1;
-                align-self: center;
                 width: 35px;
                 height: 35px;
+                margin-left: 0;
             }
             
             .navigation a {
                 display: inline-block;
-                margin: 5px;
-                font-size: 0.9em;
+                margin: 2px 3px;
+                font-size: 0.85em;
             }
         }
         
