@@ -32,10 +32,15 @@
             font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
             line-height: 1.7;
             color: #2c3e50;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        
+        .container {
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fafafa;
         }
         
         /* Content Container */
@@ -206,9 +211,7 @@
             flex-direction: column;
             align-items: flex-start;
             gap: 12px;
-            max-width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
+            width: 100%;
         }
         
         .nav-brand {
@@ -501,7 +504,7 @@
         
         /* Responsive Design */
         @media (max-width: 768px) {
-            body {
+            .container {
                 padding: 10px;
             }
             
@@ -526,8 +529,6 @@
                 padding: 12px 15px;
                 gap: 8px;
                 align-items: center;
-                margin-left: 0;
-                margin-right: 0;
             }
             
             .nav-brand {
@@ -604,9 +605,11 @@
     </div>
 
     <!-- Page Content -->
-    <main>
-        {{ content }}
-    </main>
+    <div class="container">
+        <main>
+            {{ content }}
+        </main>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
