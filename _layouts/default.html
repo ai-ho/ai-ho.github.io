@@ -234,6 +234,37 @@
             position: relative;
         }
         
+        /* Copy button for code blocks */
+        .highlight::after {
+            content: '📋';
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: #9cdcfe;
+            font-size: 16px;
+            cursor: pointer;
+            background: rgba(156, 220, 254, 0.1);
+            padding: 6px 8px;
+            border-radius: 4px;
+            border: 1px solid rgba(156, 220, 254, 0.3);
+            transition: all 0.2s ease;
+            opacity: 0.7;
+            user-select: none;
+        }
+        
+        .highlight:hover::after {
+            opacity: 1;
+            background: rgba(156, 220, 254, 0.2);
+            transform: scale(1.05);
+        }
+        
+        .highlight.copied::after {
+            content: '✅';
+            color: #4ade80;
+            border-color: rgba(74, 222, 128, 0.3);
+            background: rgba(74, 222, 128, 0.1);
+        }
+        
         .highlight pre {
             margin: 0;
             padding: 0;
@@ -415,5 +446,72 @@
         <a href="mailto:thienaiho95@gmail.com"><strong>✉️ Liên hệ</strong></a>
       </p>
     </div>
+    
+    <!-- Copy to clipboard functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add click event to all code blocks
+            const codeBlocks = document.querySelectorAll('.highlight');
+            
+            codeBlocks.forEach(function(block) {
+                block.addEventListener('click', function(e) {
+                    // Check if click was on the copy icon area (top-right corner)
+                    const rect = block.getBoundingClientRect();
+                    const clickX = e.clientX - rect.left;
+                    const clickY = e.clientY - rect.top;
+                    
+                    // Copy icon is positioned at top: 10px, right: 15px with ~40px width/height
+                    if (clickX > rect.width - 60 && clickY < 50) {
+                        // Get the code text
+                        const codeElement = block.querySelector('pre code') || block.querySelector('pre');
+                        const codeText = codeElement.textContent;
+                        
+                        // Copy to clipboard
+                        if (navigator.clipboard && window.isSecureContext) {
+                            navigator.clipboard.writeText(codeText).then(function() {
+                                showCopyFeedback(block);
+                            }).catch(function(err) {
+                                fallbackCopy(codeText, block);
+                            });
+                        } else {
+                            fallbackCopy(codeText, block);
+                        }
+                    }
+                });
+                
+                // Add title attribute for tooltip
+                block.setAttribute('title', 'Click the 📋 icon to copy code');
+            });
+            
+            function showCopyFeedback(block) {
+                block.classList.add('copied');
+                setTimeout(function() {
+                    block.classList.remove('copied');
+                }, 2000);
+            }
+            
+            function fallbackCopy(text, block) {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                textArea.style.position = 'fixed';
+                textArea.style.left = '-999999px';
+                textArea.style.top = '-999999px';
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                
+                try {
+                    document.execCommand('copy');
+                    showCopyFeedback(block);
+                } catch (err) {
+                    console.error('Failed to copy: ', err);
+                    alert('Failed to copy code to clipboard');
+                }
+                
+                document.body.removeChild(textArea);
+            }
+        });
+    </script>
 </body>
 </html>
