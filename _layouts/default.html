@@ -137,6 +137,19 @@
             margin: 20px 0;
         }
         
+        /* Navigation Icons - Override default image styles */
+        .nav-icon {
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 6px;
+            margin-top: 0;
+            margin-bottom: 0;
+            border-radius: 0;
+            box-shadow: none;
+        }
+        
         /* Horizontal Rules */
         hr {
             border: none;
@@ -212,6 +225,8 @@
             align-items: flex-start;
             gap: 8px;
             width: 100%;
+            box-sizing: border-box;
+            overflow-x: auto;
         }
         
         .nav-brand {
@@ -244,6 +259,9 @@
             text-align: left;
             margin-left: 0;
             line-height: 1.5;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
         }
         
         .navigation a {
@@ -254,9 +272,10 @@
             padding: 5px 7px;
             border-radius: 6px;
             transition: background-color 0.2s ease;
-            display: inline-block;
-            margin: 0 3px;
+            display: inline-flex;
+            align-items: center;
             font-size: 0.9em;
+            white-space: nowrap;
         }
         
         .navigation a:hover {
@@ -596,13 +615,13 @@
         <span class="nav-name">Hồ Thiện Ái</span>
       </div>
       <div class="nav-links">
-        <a href="/">Home</a>
-        <a href="/blog/">Blog</a>
-        <a href="/embedded/">Embedded</a>
-        <a href="/automotive/">Automotive</a>
-        <a href="/kits/">Development kits</a>
-        <a href="https://github.com/ai-ho">Github</a>
-        <a href="mailto:thienaiho95@gmail.com">Contact</a>
+        <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
+        <a href="/blog/"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
+        <a href="/embedded/"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Embedded</a>
+        <a href="/automotive/"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
+        <a href="/kits/"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Development kits</a>
+        <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
+        <a href="mailto:thienaiho95@gmail.com"><img src="/assets/icons/contact.svg" alt="" class="nav-icon"> Contact</a>
       </div>
     </div>
 
