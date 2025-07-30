@@ -7,7 +7,7 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 ### 1. 🔵 STM32F103 Blue Pill Board
 
 <p align="center">
-  <img src="/kits/assets/stm32f103.png" alt="STM32F103 Blue Pill Board" style="width: 100vw"/>
+  <img src="/kits/assets/stm32f103.png" alt="STM32F103 Blue Pill Board" />
 </p>
 
 - **Mô tả:**  
@@ -25,7 +25,7 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 ### 2. 🟣 ST-Link V2 Mini Debugger
 
 <p align="center">
-  <img src="/kits/assets/stlink_mini_debugger.png" alt="ST-Link V2 Mini" style="width: 100vw" />
+  <img src="/kits/assets/stlink_mini_debugger.png" alt="ST-Link V2 Mini" />
 </p>
 
 - **Mô tả:**  

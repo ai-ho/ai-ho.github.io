@@ -1,7 +1,7 @@
 ## 🛠️ Lập Trình Nhúng Căn Bản
 
 <p align="center">
-  <img src="/embedded/assets/Embedded.png" alt="Lập trình nhúng" style="width: 100vw" />
+  <img src="/embedded/assets/Embedded.png" alt="Lập trình nhúng" />
 </p>
 
 👋 Chào mừng bạn đến với chuyên mục **Lập Trình Nhúng Căn Bản**! Tại đây, tôi sẽ chia sẻ các kiến thức nền tảng và thực tiễn nhất về Embedded C, giúp bạn xây dựng nền móng vững chắc cho sự nghiệp phát triển phần mềm nhúng.
