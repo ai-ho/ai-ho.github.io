@@ -148,6 +148,24 @@
             margin-bottom: 0;
             border-radius: 0;
             box-shadow: none;
+            filter: none;
+        }
+        
+        /* Ensure SVG icons display in white */
+        .nav-icon svg,
+        .navigation .nav-icon {
+            fill: #ffffff !important;
+            color: #ffffff !important;
+        }
+        
+        .nav-icon path {
+            fill: #ffffff !important;
+            stroke: #ffffff !important;
+        }
+        
+        /* Additional fallback for SVG icon colors */
+        .navigation .nav-links img.nav-icon {
+            filter: brightness(0) invert(1);
         }
         
         /* Horizontal Rules */
