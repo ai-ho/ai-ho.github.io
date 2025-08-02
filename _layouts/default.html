@@ -3,19 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.ti        .navigation {
-            background: #ffffff;
-            border-bottom: 1px solid #d1d9e0;
-            padding: 10px 20px;
-            margin: 0 0 24px 0;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            box-sizing: border-box;
-            overflow-x: auto;
-        }: "Hồ Thiện Ái" }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "Hồ Thiện Ái" }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | default: "Kỹ sư phần mềm nhúng ô tô | Chia sẻ kiến thức & kinh nghiệm thực tế" }}{% endif %}">
     
     <!-- Favicon -->
@@ -233,9 +221,9 @@
             padding: 10px 20px;
             margin: 0 0 24px 0;
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 8px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
             width: 100%;
             box-sizing: border-box;
             overflow-x: auto;
