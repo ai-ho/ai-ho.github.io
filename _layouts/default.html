@@ -38,9 +38,12 @@
         }
         
         .container {
-            max-width: 750px;
-            margin: 0 auto 0 calc(50% - 400px);
+            max-width: 1100px;
+            margin: 0 auto 0 calc(50% - 500px);
             padding: 20px;
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
         }
         
         /* Content Container */
@@ -50,6 +53,59 @@
             border-radius: 6px;
             padding: 40px;
             margin: 20px 0;
+            flex: 1;
+            min-width: 0;
+        }
+        
+        /* Right Sidebar */
+        .right-sidebar {
+            width: 280px;
+            flex-shrink: 0;
+            margin: 20px 0;
+        }
+        
+        .sidebar-section {
+            background: #ffffff;
+            border: 1px solid #d1d9e0;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .sidebar-section h3 {
+            font-size: 1.1em;
+            color: #2d3748;
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-left: 3px solid #4299e1;
+            padding-left: 12px;
+        }
+        
+        .sidebar-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .sidebar-section li {
+            margin-bottom: 8px;
+            font-size: 0.9em;
+        }
+        
+        .sidebar-section a {
+            color: #3182ce;
+            text-decoration: none;
+            display: block;
+            padding: 8px 0;
+            border-bottom: 1px solid transparent;
+            transition: all 0.2s ease;
+        }
+        
+        .sidebar-section a:hover {
+            color: #2c5aa0;
+            background-color: #f7fafc;
+            padding-left: 8px;
+            border-bottom: 1px solid #e2e8f0;
         }
         
         /* Headings */
@@ -704,11 +760,24 @@
         @media (max-width: 768px) {
             .container {
                 padding: 10px;
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .right-sidebar {
+                width: 100%;
+                order: 2;
             }
             
             main {
                 padding: 20px;
                 margin: 10px 0;
+                order: 1;
+            }
+            
+            .sidebar-section {
+                padding: 15px;
+                margin-bottom: 15px;
             }
             
             h1 {
@@ -781,6 +850,46 @@
         <main>
             {{ content }}
         </main>
+        
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="sidebar-section">
+                <h3>🔗 Liên kết nhanh</h3>
+                <ul>
+                    <li><a href="/embedded/">🛠️ Lập trình nhúng</a></li>
+                    <li><a href="/automotive/">🚗 Phần mềm ô tô</a></li>
+                    <li><a href="/blog/">💡 Blog cá nhân</a></li>
+                    <li><a href="/kits/">📦 Kit phát triển</a></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>📊 Thống kê</h3>
+                <ul>
+                    <li>🎯 7+ năm kinh nghiệm</li>
+                    <li>🔧 Chuyên về Embedded C</li>
+                    <li>🚗 Automotive Software</li>
+                    <li>📚 20+ bài viết chia sẻ</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>🔥 Bài viết hot</h3>
+                <ul>
+                    <li><a href="/embedded/intro/">Giới thiệu Embedded C</a></li>
+                    <li><a href="/embedded/posts/">Cấu trúc chương trình</a></li>
+                    <li><a href="/automotive/">Phần mềm ô tô</a></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>📞 Liên hệ</h3>
+                <ul>
+                    <li><a href="mailto:thienaiho95@gmail.com">📧 Email</a></li>
+                    <li><a href="https://github.com/ai-ho">🐙 GitHub</a></li>
+                </ul>
+            </div>
+        </aside>
     </div>
 
     <!-- Footer -->
