@@ -350,16 +350,18 @@
                 top: 100%;
                 right: 0;
                 left: auto;
-                width: 220px;
-                max-width: calc(100vw - 40px);
+                width: 180px;
+                max-width: calc(100vw - 20px);
+                max-height: none;
                 background: #0053CD;
                 border-top: 1px solid rgba(255, 255, 255, 0.2);
                 border-radius: 0 0 8px 8px;
                 box-shadow: 0 4px 12px rgba(0, 83, 205, 0.3);
                 flex-direction: column;
-                padding: 8px 16px;
+                padding: 6px 12px;
                 margin: 0;
                 z-index: 1000;
+                overflow: visible;
             }
             
             .navigation .nav-links.show {
@@ -367,14 +369,16 @@
             }
             
             .navigation .nav-links a {
-                padding: 10px 12px;
+                padding: 8px 10px;
                 width: 100%;
                 text-align: left;
                 border-radius: 4px;
                 margin: 1px 0;
-                font-size: 0.9em;
+                font-size: 0.85em;
                 justify-content: flex-start;
                 box-sizing: border-box;
+                white-space: nowrap;
+                overflow: visible;
             }
         }
         
@@ -393,15 +397,15 @@
             }
             
             .navigation .nav-links {
-                width: 200px;
-                max-width: calc(100vw - 30px);
-                padding: 6px 12px;
+                width: 160px;
+                max-width: calc(100vw - 20px);
+                padding: 4px 8px;
             }
             
             .navigation .nav-links a {
-                padding: 8px 10px;
-                font-size: 0.85em;
-                margin: 1px 0;
+                padding: 6px 8px;
+                font-size: 0.8em;
+                margin: 0.5px 0;
             }
         }
         
@@ -665,37 +669,6 @@
             
             h3 {
                 font-size: 1.1em;
-            }
-            
-            .navigation {
-                padding: 12px 15px;
-                gap: 8px;
-                align-items: center;
-            }
-            
-            .nav-brand {
-                align-self: center;
-            }
-            
-            .navigation .nav-links {
-                text-align: center;
-                margin-left: 0;
-            }
-            
-            .navigation .nav-avatar {
-                width: 28px;
-                height: 28px;
-            }
-            
-            .nav-name {
-                font-size: 14px;
-            }
-            
-            .navigation a {
-                display: inline-block;
-                margin: 2px 3px;
-                font-size: 0.9em;
-                padding: 6px 12px;
             }
         }
         
