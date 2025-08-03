@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple tools/kits icon -->
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Toolbox body -->
+  <rect x="3" y="9" width="18" height="10" rx="1" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- Toolbox handle -->
+  <path d="M8 9V7C8 5.89543 8.89543 5 10 5H14C15.1046 5 16 5.89543 16 7V9" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- Tools inside -->
+  <line x1="7" y1="13" x2="9" y2="13" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="11" y1="13" x2="13" y2="13" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="15" y1="13" x2="17" y2="13" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Compartment divider -->
+  <line x1="12" y1="9" x2="12" y2="19" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+</svg>
