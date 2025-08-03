@@ -326,60 +326,6 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         
-        /* Dropdown Menu */
-        .nav-dropdown {
-            position: relative;
-            display: inline-block;
-        }
-        
-        .dropdown-menu {
-            display: none;
-            position: fixed;
-            top: 50px;
-            right: 20px;
-            min-width: 160px;
-            background: #0053CD;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 6px;
-            box-shadow: 0 4px 12px rgba(0, 83, 205, 0.4);
-            z-index: 1000;
-            padding: 4px 0;
-        }
-        
-        .nav-dropdown:hover .dropdown-menu,
-        .nav-dropdown.active .dropdown-menu {
-            display: block;
-        }
-        
-        /* Hide dropdown by default on desktop only */
-        @media (min-width: 769px) {
-            .dropdown-menu {
-                display: none !important;
-            }
-            
-            .nav-dropdown:hover .dropdown-menu {
-                display: block !important;
-            }
-        }
-        
-        .dropdown-menu a {
-            display: block !important;
-            padding: 8px 12px !important;
-            font-size: 0.8em !important;
-            white-space: nowrap;
-            border-radius: 0 !important;
-            margin: 0 !important;
-            transform: none !important;
-            box-shadow: none !important;
-            width: auto !important;
-            text-align: left !important;
-        }
-        
-        .dropdown-menu a:hover {
-            background-color: rgba(255, 255, 255, 0.1) !important;
-            transform: none !important;
-        }
-        
         /* Mobile Menu Button */
         .mobile-menu-button {
             display: none;
@@ -434,32 +380,6 @@
                 display: inline-flex;
                 padding: 4px 6px;
                 font-size: 0.75em;
-            }
-            
-            /* Mobile dropdown handling */
-            .nav-dropdown {
-                position: relative;
-                display: inline-block;
-            }
-            
-            .nav-dropdown .dropdown-trigger {
-                display: inline-flex !important;
-                padding: 4px 6px;
-                font-size: 0.75em;
-            }
-            
-            .nav-dropdown .dropdown-menu {
-                display: block !important; /* Always visible on mobile */
-                position: fixed;
-                top: 50px;
-                right: 20px;
-                min-width: 140px;
-                background: #0053CD;
-                border: 1px solid rgba(255, 255, 255, 0.2);
-                border-radius: 6px;
-                box-shadow: 0 4px 12px rgba(0, 83, 205, 0.4);
-                z-index: 1000;
-                padding: 4px 0;
             }
             
             .navigation .nav-links.show {
@@ -518,17 +438,9 @@
                 height: 26px;
             }
             
-            .navigation .nav-links a.nav-priority,
-            .nav-dropdown .dropdown-trigger {
+            .navigation .nav-links a.nav-priority {
                 padding: 3px 5px;
                 font-size: 0.7em;
-            }
-            
-            .nav-dropdown .dropdown-menu {
-                display: block !important; /* Always visible on small mobile */
-                top: 44px;
-                right: 15px;
-                min-width: 130px;
             }
             
             .navigation .nav-links.show {
@@ -854,14 +766,7 @@
       <div class="nav-links" id="navLinks">
         <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
         <a href="/blog/" class="nav-priority"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
-        <div class="nav-dropdown">
-          <a href="/embedded/" class="nav-priority dropdown-trigger"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Embedded</a>
-          <div class="dropdown-menu">
-            <a href="/embedded/intro/"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Giới thiệu</a>
-            <a href="/embedded/posts/"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Bài viết</a>
-            <a href="/embedded/prog_struct/"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Lập trình cấu trúc</a>
-          </div>
-        </div>
+        <a href="/embedded/" class="nav-priority"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Embedded</a>
         <a href="/automotive/"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
         <a href="/kits/"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Kits</a>
         <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
@@ -905,39 +810,6 @@
             navLinks.classList.toggle('show');
         }
         
-        // Handle dropdown clicks on mobile
-        document.addEventListener('click', function(event) {
-            const dropdownTrigger = event.target.closest('.dropdown-trigger');
-            const dropdown = event.target.closest('.nav-dropdown');
-            
-            // If clicked on dropdown trigger
-            if (dropdownTrigger) {
-                event.preventDefault();
-                const parentDropdown = dropdownTrigger.closest('.nav-dropdown');
-                
-                // On mobile, toggle dropdown
-                if (window.innerWidth <= 768) {
-                    parentDropdown.classList.toggle('active');
-                    
-                    // Close other dropdowns
-                    document.querySelectorAll('.nav-dropdown').forEach(d => {
-                        if (d !== parentDropdown) {
-                            d.classList.remove('active');
-                        }
-                    });
-                } else {
-                    // On desktop, navigate to the link
-                    window.location.href = dropdownTrigger.getAttribute('href');
-                }
-            }
-            // If clicked outside dropdown
-            else if (!dropdown) {
-                document.querySelectorAll('.nav-dropdown').forEach(d => {
-                    d.classList.remove('active');
-                });
-            }
-        });
-        
         // Close mobile menu when clicking outside
         document.addEventListener('click', function(event) {
             const navigation = document.querySelector('.navigation');
@@ -946,10 +818,6 @@
             
             if (!navigation.contains(event.target) && navLinks.classList.contains('show')) {
                 navLinks.classList.remove('show');
-                // Also close any open dropdowns
-                document.querySelectorAll('.nav-dropdown').forEach(d => {
-                    d.classList.remove('active');
-                });
             }
         });
         
