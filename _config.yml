@@ -24,3 +24,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include files
+include:
+  - _pages
