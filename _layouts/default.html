@@ -65,11 +65,17 @@
         }
         
         .sidebar-section {
-            background: #ffffff;
-            border: 1px solid #d1d9e0;
-            border-radius: 6px;
+            background: #f8f9fa;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
             padding: 20px;
             margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: box-shadow 0.2s ease;
+        }
+        
+        .sidebar-section:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
         }
         
         .sidebar-section h3 {
@@ -870,16 +876,7 @@
         
         <!-- Right Sidebar -->
         <aside class="right-sidebar">
-            <div class="sidebar-section">
-                <h3>🔗 Liên kết nhanh</h3>
-                <ul>
-                    <li><a href="/embedded/">🛠️ Lập trình nhúng</a></li>
-                    <li><a href="/automotive/">🚗 Phần mềm ô tô</a></li>
-                    <li><a href="/blog/">💡 Blog cá nhân</a></li>
-                    <li><a href="/kits/">📦 Kit phát triển</a></li>
-                </ul>
-            </div>
-            
+
             <div class="sidebar-section">
                 <h3>� Categories</h3>
                 <ul>
@@ -891,12 +888,11 @@
             </div>
             
             <div class="sidebar-section">
-                <h3>�📊 Thống kê</h3>
+                <h3>�📊 Recent Posts</h3>
                 <ul>
-                    <li>🎯 7+ năm kinh nghiệm</li>
-                    <li>🔧 Chuyên về Embedded C</li>
-                    <li>🚗 Automotive Software</li>
-                    <li>📚 20+ bài viết chia sẻ</li>
+                    <li><a href="/embedded/intro/">Giới thiệu Embedded C</a></li>
+                    <li><a href="/embedded/posts/">Cấu trúc chương trình</a></li>
+                    <li><a href="/automotive/">Phần mềm ô tô</a></li>
                 </ul>
             </div>
             
