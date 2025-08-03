@@ -108,6 +108,23 @@
             border-bottom: 1px solid #e2e8f0;
         }
         
+        /* Post count styling */
+        .post-count {
+            float: right;
+            background: #e2e8f0;
+            color: #4a5568;
+            font-size: 0.75em;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        
+        .sidebar-section a:hover .post-count {
+            background: #cbd5e0;
+            color: #2d3748;
+        }
+        
         /* Headings */
         h1, h2, h3, h4, h5, h6 {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -864,7 +881,17 @@
             </div>
             
             <div class="sidebar-section">
-                <h3>📊 Thống kê</h3>
+                <h3>� Categories</h3>
+                <ul>
+                    <li><a href="/embedded/">🛠️ Embedded Programming <span class="post-count">(8)</span></a></li>
+                    <li><a href="/automotive/">🚗 Automotive Software <span class="post-count">(5)</span></a></li>
+                    <li><a href="/blog/">💡 Personal Blog <span class="post-count">(12)</span></a></li>
+                    <li><a href="/kits/">📦 Development Kits <span class="post-count">(3)</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>�📊 Thống kê</h3>
                 <ul>
                     <li>🎯 7+ năm kinh nghiệm</li>
                     <li>🔧 Chuyên về Embedded C</li>
