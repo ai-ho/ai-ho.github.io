@@ -341,22 +341,24 @@
                 justify-content: space-between;
                 gap: 8px;
                 padding: 10px 20px;
-                position: relative;
-                height: auto;
+                position: static;
+                height: 52px;
                 min-height: 52px;
+                max-height: 52px;
+                overflow: visible;
             }
             
             .navigation .nav-links {
                 display: none;
-                position: absolute;
-                top: 100%;
-                right: 0;
+                position: fixed;
+                top: 72px;
+                right: 20px;
                 left: auto;
                 width: 150px;
-                max-width: calc(100vw - 10px);
+                max-width: calc(100vw - 40px);
                 background: #0053CD;
-                border-top: 1px solid rgba(255, 255, 255, 0.2);
-                border-radius: 0 0 8px 8px;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                border-radius: 8px;
                 box-shadow: 0 4px 12px rgba(0, 83, 205, 0.3);
                 flex-direction: column;
                 padding: 4px 8px;
@@ -390,7 +392,9 @@
         @media (max-width: 480px) {
             .navigation {
                 padding: 8px 15px;
+                height: 46px;
                 min-height: 46px;
+                max-height: 46px;
             }
             
             .nav-name {
@@ -403,10 +407,11 @@
             }
             
             .navigation .nav-links {
+                top: 64px;
+                right: 15px;
                 width: 140px;
-                max-width: calc(100vw - 10px);
+                max-width: calc(100vw - 30px);
                 padding: 3px 6px;
-                top: 100%;
             }
             
             .navigation .nav-links a {
