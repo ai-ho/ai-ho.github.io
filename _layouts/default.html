@@ -337,6 +337,8 @@
             padding: 8px;
             border-radius: 4px;
             transition: background-color 0.2s ease;
+            flex-shrink: 0;
+            margin-left: auto;
         }
         
         .mobile-menu-button:hover {
@@ -365,8 +367,8 @@
             .navigation .nav-links {
                 display: flex;
                 gap: 4px;
-                margin-left: 0;
-                margin-right: 0;
+                margin-left: auto;
+                margin-right: 8px;
                 position: relative;
                 justify-content: flex-end;
                 align-items: center;
@@ -760,9 +762,6 @@
           <span class="nav-name">Hồ Thiện Ái</span>
         </a>
       </div>
-      <button class="mobile-menu-button" onclick="toggleMobileMenu()" aria-label="Toggle menu">
-        <span>☰</span>
-      </button>
       <div class="nav-links" id="navLinks">
         <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
         <a href="/blog/" class="nav-priority"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
@@ -772,6 +771,9 @@
         <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
         <a href="mailto:thienaiho95@gmail.com"><img src="/assets/icons/contact.svg" alt="" class="nav-icon"> Contact</a>
       </div>
+      <button class="mobile-menu-button" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+        <span>☰</span>
+      </button>
     </div>
 
     <!-- Page Content -->
