@@ -342,12 +342,14 @@
                 gap: 8px;
                 padding: 10px 20px;
                 position: relative;
+                height: auto;
+                min-height: 52px;
             }
             
             .navigation .nav-links {
                 display: none;
                 position: absolute;
-                top: 60px;
+                top: 100%;
                 right: 0;
                 left: auto;
                 width: 150px;
@@ -388,6 +390,7 @@
         @media (max-width: 480px) {
             .navigation {
                 padding: 8px 15px;
+                min-height: 46px;
             }
             
             .nav-name {
@@ -403,7 +406,7 @@
                 width: 140px;
                 max-width: calc(100vw - 10px);
                 padding: 3px 6px;
-                top: 50px;
+                top: 100%;
             }
             
             .navigation .nav-links a {
