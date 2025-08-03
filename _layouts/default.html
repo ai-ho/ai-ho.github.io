@@ -782,12 +782,14 @@
         /* Responsive Design */
         @media (max-width: 768px) {
             .container {
-                padding: 10px;
+                padding: 15px;
                 flex-direction: column;
                 gap: 20px;
                 max-width: 100%;
                 margin: 0 auto;
                 justify-content: center;
+                width: 100%;
+                box-sizing: border-box;
             }
             
             .right-sidebar {
@@ -796,10 +798,11 @@
             
             main {
                 padding: 20px;
-                margin: 10px auto;
+                margin: 0;
                 order: 1;
                 width: 100%;
-                max-width: 750px;
+                max-width: 100%;
+                box-sizing: border-box;
             }
             
             .sidebar-section {
@@ -817,6 +820,25 @@
             
             h3 {
                 font-size: 1.1em;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            
+            main {
+                padding: 15px;
+                border-radius: 4px;
+            }
+            
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            h2 {
+                font-size: 1.2em;
             }
         }
         
