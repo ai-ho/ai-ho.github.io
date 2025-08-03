@@ -255,6 +255,22 @@
             flex-shrink: 0;
         }
         
+        .nav-brand-link {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s ease;
+            border-bottom: none !important;
+        }
+        
+        .nav-brand-link:hover {
+            opacity: 0.8;
+            transform: scale(1.02);
+            border-bottom: none !important;
+        }
+        
         .navigation .nav-avatar {
             width: 36px;
             height: 36px;
@@ -264,9 +280,7 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         
-        .navigation .nav-avatar:hover {
-            opacity: 0.8;
-            transform: scale(1.05);
+        .nav-brand-link:hover .nav-avatar {
             border-color: rgba(255, 255, 255, 0.4);
         }
         
@@ -349,7 +363,23 @@
             }
             
             .navigation .nav-links {
+                display: flex;
+                gap: 4px;
+                margin-left: auto;
+                margin-right: 8px;
+            }
+            
+            .navigation .nav-links a {
                 display: none;
+            }
+            
+            .navigation .nav-links a.nav-priority {
+                display: inline-flex;
+                padding: 6px 8px;
+                font-size: 0.8em;
+            }
+            
+            .navigation .nav-links.show {
                 position: fixed;
                 top: 72px;
                 right: 20px;
@@ -367,13 +397,11 @@
                 overflow: visible;
                 height: auto;
                 max-height: none;
+                gap: 0;
             }
             
-            .navigation .nav-links.show {
+            .navigation .nav-links.show a {
                 display: flex;
-            }
-            
-            .navigation .nav-links a {
                 padding: 6px 8px;
                 width: 100%;
                 text-align: left;
@@ -386,6 +414,10 @@
                 overflow: visible;
                 line-height: 1.2;
                 min-height: auto;
+            }
+            
+            .navigation .nav-links.show a.nav-priority {
+                display: none;
             }
         }
         
@@ -406,7 +438,12 @@
                 height: 28px;
             }
             
-            .navigation .nav-links {
+            .navigation .nav-links a.nav-priority {
+                padding: 5px 6px;
+                font-size: 0.75em;
+            }
+            
+            .navigation .nav-links.show {
                 top: 64px;
                 right: 15px;
                 width: 140px;
@@ -414,7 +451,7 @@
                 padding: 3px 6px;
             }
             
-            .navigation .nav-links a {
+            .navigation .nav-links.show a {
                 padding: 5px 6px;
                 font-size: 0.75em;
                 margin: 0;
@@ -718,16 +755,18 @@
     <!-- Navigation Menu -->
     <div class="navigation">
       <div class="nav-brand">
-        <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
-        <span class="nav-name">Hồ Thiện Ái</span>
+        <a href="/" class="nav-brand-link">
+          <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
+          <span class="nav-name">Hồ Thiện Ái</span>
+        </a>
       </div>
       <button class="mobile-menu-button" onclick="toggleMobileMenu()" aria-label="Toggle menu">
         <span>☰</span>
       </button>
       <div class="nav-links" id="navLinks">
         <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
-        <a href="/blog/"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
-        <a href="/embedded/"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Embedded</a>
+        <a href="/blog/" class="nav-priority"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
+        <a href="/embedded/" class="nav-priority"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Embedded</a>
         <a href="/automotive/"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
         <a href="/kits/"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Kits</a>
         <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
