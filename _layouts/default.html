@@ -355,7 +355,7 @@
                 justify-content: space-between;
                 gap: 8px;
                 padding: 10px 20px;
-                position: static;
+                position: relative;
                 height: 52px;
                 min-height: 52px;
                 max-height: 52px;
@@ -380,9 +380,9 @@
             }
             
             .navigation .nav-links.show {
-                position: fixed;
-                top: 72px;
-                right: 20px;
+                position: absolute;
+                top: 100%;
+                right: 0;
                 left: auto;
                 width: 150px;
                 max-width: calc(100vw - 40px);
@@ -440,8 +440,8 @@
             }
             
             .navigation .nav-links.show {
-                top: 64px;
-                right: 15px;
+                top: 100%;
+                right: 0;
                 width: 140px;
                 max-width: calc(100vw - 30px);
                 padding: 3px 6px;
