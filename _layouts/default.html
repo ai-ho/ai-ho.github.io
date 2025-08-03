@@ -365,9 +365,11 @@
             .navigation .nav-links {
                 display: flex;
                 gap: 4px;
-                margin-left: auto;
-                margin-right: 8px;
+                margin-left: 0;
+                margin-right: 0;
                 position: relative;
+                justify-content: flex-end;
+                align-items: center;
             }
             
             .navigation .nav-links a {
@@ -383,7 +385,7 @@
             .navigation .nav-links.show {
                 position: absolute;
                 top: 100%;
-                right: -8px;
+                right: 0;
                 left: auto;
                 width: 150px;
                 max-width: calc(100vw - 40px);
@@ -399,6 +401,7 @@
                 height: auto;
                 max-height: none;
                 gap: 0;
+                justify-content: flex-start;
             }
             
             .navigation .nav-links.show a {
@@ -442,7 +445,7 @@
             
             .navigation .nav-links.show {
                 top: 100%;
-                right: -6px;
+                right: 0;
                 width: 140px;
                 max-width: calc(100vw - 30px);
                 padding: 3px 6px;
