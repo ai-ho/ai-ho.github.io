@@ -70,9 +70,8 @@
             border-radius: 8px;
             padding: 16px;
             margin-bottom: 16px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             transition: box-shadow 0.2s ease;
-            border-bottom: 1px solid #e2e8f0;
+            border-bottom: 1px solid #d1d5db;
         }
         
         .sidebar-section:last-child {
@@ -80,11 +79,11 @@
         }
         
         .sidebar-section:hover {
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
         }
         
         .sidebar-section h3 {
-            font-size: 0.95em;
+            font-size: 1.05em;
             color: #2d3748;
             margin-top: 0;
             margin-bottom: 12px;
@@ -100,7 +99,7 @@
         
         .sidebar-section li {
             margin-bottom: 6px;
-            font-size: 0.8em;
+            font-size: 0.9em;
             line-height: 1.4;
         }
         
@@ -111,7 +110,7 @@
             padding: 6px 0;
             border-bottom: 1px solid transparent;
             transition: all 0.2s ease;
-            font-size: 0.85em;
+            font-size: 0.95em;
         }
         
         .sidebar-section a:hover {
@@ -238,7 +237,7 @@
             filter: none;
         }
         
-        /* Ensure SVG icons display in dark color */
+        /* Ensure SVG icons display in same color as navigation links */
         .nav-icon svg,
         .navigation .nav-icon {
             fill: #24292f !important;
@@ -250,12 +249,12 @@
             stroke: #24292f !important;
         }
         
-        /* Additional fallback for SVG icon colors */
+        /* Navigation link icon color matching */
         .navigation .nav-links img.nav-icon {
             filter: brightness(0) saturate(100%) invert(15%) sepia(18%) saturate(662%) hue-rotate(190deg) brightness(95%) contrast(96%);
         }
         
-        /* Icon color on hover */
+        /* Icon color on hover - match navigation link hover color (#0969da) */
         .navigation .nav-links a:hover .nav-icon {
             filter: brightness(0) saturate(100%) invert(27%) sepia(97%) saturate(2319%) hue-rotate(209deg) brightness(95%) contrast(88%);
         }
