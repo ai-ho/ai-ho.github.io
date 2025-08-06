@@ -230,21 +230,26 @@
             filter: none;
         }
         
-        /* Ensure SVG icons display in dark color */
+        /* Ensure SVG icons display in dark gray color */
         .nav-icon svg,
         .navigation .nav-icon {
-            fill: #2c3e50 !important;
-            color: #2c3e50 !important;
+            fill: #656d76 !important;
+            color: #656d76 !important;
         }
         
         .nav-icon path {
-            fill: #2c3e50 !important;
-            stroke: #2c3e50 !important;
+            fill: #656d76 !important;
+            stroke: #656d76 !important;
         }
         
         /* Additional fallback for SVG icon colors */
         .navigation .nav-links img.nav-icon {
-            filter: brightness(0) saturate(100%) invert(18%) sepia(14%) saturate(1135%) hue-rotate(184deg) brightness(98%) contrast(85%);
+            filter: brightness(0) saturate(100%) invert(47%) sepia(10%) saturate(548%) hue-rotate(192deg) brightness(93%) contrast(88%);
+        }
+        
+        /* Icon color on hover */
+        .navigation .nav-links a:hover .nav-icon {
+            filter: brightness(0) saturate(100%) invert(15%) sepia(18%) saturate(662%) hue-rotate(190deg) brightness(95%) contrast(96%);
         }
         
         /* Horizontal Rules */
@@ -313,12 +318,12 @@
         
         /* Navigation */
         .navigation {
-            background: #D7D7D7;
-            border-bottom: 2px solid #b8b8b8;
+            background: #f6f8fa;
+            border-bottom: 1px solid #d1d9e0;
             padding: 2px 20px;
             margin: 0 0 24px 0;
             display: flex;
-            box-shadow: 0 4px 12px rgba(215, 215, 215, 0.3);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
@@ -367,8 +372,8 @@
             font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
             font-size: 15px;
             font-weight: 700;
-            color: #2c3e50;
-            text-shadow: 0 1px 2px rgba(255, 255, 255, 0.1);
+            color: #24292f;
+            text-shadow: none;
         }
         
         .navigation .nav-links {
@@ -384,7 +389,7 @@
         
         .navigation .nav-links a {
             font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
-            color: #2c3e50;
+            color: #656d76;
             font-weight: 500;
             text-decoration: none;
             padding: 4px 8px;
@@ -394,15 +399,15 @@
             align-items: center;
             font-size: 0.85em;
             white-space: nowrap;
-            text-shadow: 0 1px 2px rgba(255, 255, 255, 0.1);
+            text-shadow: none;
         }
         
         .navigation .nav-links a:hover {
-            background-color: rgba(44, 62, 80, 0.1);
+            background-color: #f3f4f6;
             border-bottom: none;
-            color: #2c3e50;
+            color: #24292f;
             transform: translateY(-1px);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
         }
         
         /* Mobile Menu Button */
@@ -410,7 +415,7 @@
             display: none;
             background: none;
             border: none;
-            color: #2c3e50;
+            color: #656d76;
             font-size: 18px;
             cursor: pointer;
             padding: 8px;
@@ -420,7 +425,8 @@
         }
         
         .mobile-menu-button:hover {
-            background-color: rgba(44, 62, 80, 0.1);
+            background-color: #f3f4f6;
+            color: #24292f;
         }
         
         /* Navigation Mobile Responsive */
@@ -469,10 +475,10 @@
                 left: auto;
                 width: 150px;
                 max-width: calc(100vw - 40px);
-                background: #D7D7D7;
-                border: 1px solid rgba(44, 62, 80, 0.2);
+                background: #f6f8fa;
+                border: 1px solid #d1d9e0;
                 border-radius: 8px;
-                box-shadow: 0 4px 12px rgba(215, 215, 215, 0.3);
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
                 flex-direction: column;
                 padding: 4px 8px;
                 margin: 0;
