@@ -65,13 +65,18 @@
         }
         
         .sidebar-section {
-            background: #f8f9fa;
-            border: 1px solid #e2e8f0;
+            background: #ffffff;
+            border: none;
             border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 16px;
+            margin-bottom: 16px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             transition: box-shadow 0.2s ease;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .sidebar-section:last-child {
+            border-bottom: none;
         }
         
         .sidebar-section:hover {
@@ -79,12 +84,12 @@
         }
         
         .sidebar-section h3 {
-            font-size: 1.1em;
+            font-size: 0.95em;
             color: #2d3748;
             margin-top: 0;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
             border-left: 3px solid #4299e1;
-            padding-left: 12px;
+            padding-left: 10px;
         }
         
         .sidebar-section ul {
@@ -94,24 +99,27 @@
         }
         
         .sidebar-section li {
-            margin-bottom: 8px;
-            font-size: 0.9em;
+            margin-bottom: 6px;
+            font-size: 0.8em;
+            line-height: 1.4;
         }
         
         .sidebar-section a {
-            color: #3182ce;
-            text-decoration: none;
+            color: #0969da;
+            text-decoration: underline;
             display: block;
-            padding: 8px 0;
+            padding: 6px 0;
             border-bottom: 1px solid transparent;
             transition: all 0.2s ease;
+            font-size: 0.85em;
         }
         
         .sidebar-section a:hover {
-            color: #2c5aa0;
+            color: #0550ae;
             background-color: #f7fafc;
             padding-left: 8px;
             border-bottom: 1px solid #e2e8f0;
+            text-decoration: underline;
         }
         
         /* Post count styling */
@@ -119,11 +127,11 @@
             float: right;
             background: #e2e8f0;
             color: #4a5568;
-            font-size: 0.75em;
-            padding: 2px 6px;
-            border-radius: 10px;
+            font-size: 0.65em;
+            padding: 1px 4px;
+            border-radius: 8px;
             font-weight: 600;
-            margin-left: 8px;
+            margin-left: 6px;
         }
         
         .sidebar-section a:hover .post-count {
@@ -786,6 +794,32 @@
         .highlight .no { color: #4fc1ff; } /* ALL_CAPS constants */
         
         /* Responsive Design */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 15px;
+                flex-direction: column;
+                gap: 20px;
+                max-width: 100%;
+                margin: 0 auto;
+                justify-content: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            
+            .right-sidebar {
+                display: none;
+            }
+            
+            main {
+                padding: 30px;
+                margin: 0;
+                order: 1;
+                width: 100%;
+                max-width: 100%;
+                box-sizing: border-box;
+            }
+        }
+        
         @media (max-width: 768px) {
             .container {
                 padding: 15px;
@@ -920,16 +954,7 @@
             </div>
             
             <div class="sidebar-section">
-                <h3>�📊 Recent Posts</h3>
-                <ul>
-                    <li><a href="/embedded/intro/">Giới thiệu Embedded C</a></li>
-                    <li><a href="/embedded/posts/">Cấu trúc chương trình</a></li>
-                    <li><a href="/automotive/">Phần mềm ô tô</a></li>
-                </ul>
-            </div>
-            
-            <div class="sidebar-section">
-                <h3>� Recent Posts</h3>
+                <h3>📊 Recent Posts</h3>
                 <ul>
                     <li><a href="/embedded/prog_struct/">Cấu trúc chương trình Embedded C</a></li>
                     <li><a href="/embedded/intro/">Giới thiệu lập trình nhúng</a></li>
