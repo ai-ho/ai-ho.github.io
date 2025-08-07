@@ -325,7 +325,21 @@
         
         /* Navigation */
         .navigation {
-            background: #ED3500;
+            background: #ffffff;
+            border-bottom: none;
+            padding: 8px 20px;
+            margin: 0;
+            display: flex;
+            box-shadow: none;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .nav-menu-row {
+            background: #cc0000;
             border-bottom: 1px solid #d1d9e0;
             padding: 2px 20px;
             margin: 0 0 24px 0;
@@ -379,14 +393,13 @@
             font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
             font-size: 15px;
             font-weight: 700;
-            color: #ffffff;
+            color: #000000;
             text-shadow: none;
         }
         
         .navigation .nav-links {
             text-align: center;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
             line-height: 1.5;
             display: flex;
             flex-wrap: wrap;
@@ -394,7 +407,18 @@
             justify-content: center;
         }
         
-        .navigation .nav-links a {
+        .nav-menu-row .nav-links {
+            text-align: center;
+            margin: 0 auto;
+            line-height: 1.5;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            justify-content: center;
+        }
+        
+        .navigation .nav-links a,
+        .nav-menu-row .nav-links a {
             font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
             color: #ffffff;
             font-weight: 500;
@@ -409,7 +433,8 @@
             text-shadow: none;
         }
         
-        .navigation .nav-links a:hover {
+        .navigation .nav-links a:hover,
+        .nav-menu-row .nav-links a:hover {
             background-color: rgba(255, 255, 255, 0.2);
             border-bottom: none;
             color: #ffffff;
@@ -443,6 +468,10 @@
             }
             
             .navigation {
+                padding: 6px 20px;
+            }
+            
+            .nav-menu-row {
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
@@ -455,7 +484,7 @@
                 overflow: visible;
             }
             
-            .navigation .nav-links {
+            .nav-menu-row .nav-links {
                 display: flex;
                 gap: 4px;
                 margin-left: auto;
@@ -465,17 +494,17 @@
                 align-items: center;
             }
             
-            .navigation .nav-links a {
+            .nav-menu-row .nav-links a {
                 display: none;
             }
             
-            .navigation .nav-links a.nav-priority {
+            .nav-menu-row .nav-links a.nav-priority {
                 display: inline-flex;
                 padding: 4px 6px;
                 font-size: 0.75em;
             }
             
-            .navigation .nav-links.show {
+            .nav-menu-row .nav-links.show {
                 position: absolute;
                 top: 100%;
                 right: 0;
@@ -497,7 +526,7 @@
                 justify-content: flex-start;
             }
             
-            .navigation .nav-links.show a {
+            .nav-menu-row .nav-links.show a {
                 display: flex !important;
                 padding: 6px 8px;
                 width: 100%;
@@ -517,6 +546,10 @@
         @media (max-width: 480px) {
             .navigation {
                 padding: 4px 15px;
+            }
+            
+            .nav-menu-row {
+                padding: 4px 15px;
                 height: 38px;
                 min-height: 38px;
                 max-height: 38px;
@@ -531,12 +564,12 @@
                 height: 26px;
             }
             
-            .navigation .nav-links a.nav-priority {
+            .nav-menu-row .nav-links a.nav-priority {
                 padding: 3px 5px;
                 font-size: 0.7em;
             }
             
-            .navigation .nav-links.show {
+            .nav-menu-row .nav-links.show {
                 top: 100%;
                 right: 0;
                 width: 140px;
@@ -544,7 +577,7 @@
                 padding: 3px 6px;
             }
             
-            .navigation .nav-links.show a {
+            .nav-menu-row .nav-links.show a {
                 display: flex !important;
                 padding: 5px 6px;
                 font-size: 0.75em;
@@ -558,7 +591,7 @@
             border-top: 1px solid #333333;
             padding: 16px 0;
             margin-top: 40px;
-            background: #000000;
+            background: #150E56;
         }
         
         .footer-content {
@@ -915,10 +948,12 @@
     <div class="navigation">
       <div class="nav-brand">
         <a href="/" class="nav-brand-link">
-          <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="nav-avatar" title="Hồ Thiện Ái - Kỹ sư phần mềm nhúng ô tô">
-          <span class="nav-name">Hồ Thiện Ái</span>
+          <img src="/assets/embedded-insights.png" alt="Embedded Insights" class="nav-avatar" title="Embedded Insights - Technical Blog">
+          <span class="nav-name">Embedded Insights</span>
         </a>
       </div>
+    </div>
+    <div class="nav-menu-row">
       <div class="nav-links" id="navLinks">
         <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
         <a href="/blog/" class="nav-priority"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
