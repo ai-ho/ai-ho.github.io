@@ -378,8 +378,8 @@
         }
         
         .navigation .nav-avatar {
-            width: 32px;
-            height: 32px;
+            width: 48px;
+            height: 48px;
             border-radius: 0;
             border: none;
             transition: all 0.2s ease;
@@ -392,8 +392,8 @@
         
         .nav-name {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            font-size: 15px;
-            font-weight: 700;
+            font-size: 20px;
+            font-weight: 400;
             color: #000000;
             text-shadow: none;
         }
@@ -525,6 +525,7 @@
                 max-height: none;
                 gap: 0;
                 justify-content: flex-start;
+                display: flex !important;
             }
             
             .nav-menu-row .nav-links.show a {
@@ -564,12 +565,12 @@
             }
             
             .nav-name {
-                font-size: 13px;
+                font-size: 16px;
             }
             
             .navigation .nav-avatar {
-                width: 26px;
-                height: 26px;
+                width: 38px;
+                height: 38px;
             }
             
             .nav-menu-row .nav-links a.nav-priority {
@@ -1073,16 +1074,19 @@
         // Mobile menu toggle function
         function toggleMobileMenu() {
             const navLinks = document.getElementById('navLinks');
-            navLinks.classList.toggle('show');
+            if (navLinks) {
+                navLinks.classList.toggle('show');
+                console.log('Menu toggled:', navLinks.classList.contains('show'));
+            }
         }
         
         // Close mobile menu when clicking outside
         document.addEventListener('click', function(event) {
-            const navigation = document.querySelector('.navigation');
+            const navMenuRow = document.querySelector('.nav-menu-row');
             const navLinks = document.getElementById('navLinks');
             const mobileButton = document.querySelector('.mobile-menu-button');
             
-            if (!navigation.contains(event.target) && navLinks.classList.contains('show')) {
+            if (navMenuRow && !navMenuRow.contains(event.target) && navLinks && navLinks.classList.contains('show')) {
                 navLinks.classList.remove('show');
             }
         });
