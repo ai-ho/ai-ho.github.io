@@ -87,8 +87,7 @@
             color: #2d3748;
             margin-top: 0;
             margin-bottom: 12px;
-            border-left: 3px solid #4299e1;
-            padding-left: 10px;
+            padding-left: 0;
         }
         
         .sidebar-section ul {
@@ -182,8 +181,6 @@
         h2 {
             font-size: 1.4em;
             color: #2d3748;
-            border-left: 3px solid #4299e1;
-            padding-left: 12px;
             margin-top: 2em;
         }
         
@@ -234,6 +231,33 @@
         a:hover {
             color: #2c5aa0;
             border-bottom: 1px solid #3182ce;
+        }
+        
+        /* Main content links with arrow icon */
+        main a {
+            position: relative;
+            padding-left: 20px;
+            display: inline-block;
+        }
+        
+        main a::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 14px;
+            height: 14px;
+            background-image: url('/assets/icons/arrow-list.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            filter: brightness(0) saturate(100%) invert(70%);
+            transition: filter 0.2s ease;
+        }
+        
+        main a:hover::before {
+            filter: brightness(0) saturate(100%) invert(50%);
         }
         
         /* Images */
