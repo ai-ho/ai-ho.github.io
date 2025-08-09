@@ -462,10 +462,17 @@
             color: #ffffff;
         }
         
+        /* Dropdown Menu - Hidden by default */
+        .dropdown-menu {
+            display: none;
+        }
+        
         /* Navigation Mobile Responsive */
         @media (max-width: 768px) {
             .mobile-menu-button {
                 display: block;
+                margin-left: auto;
+                order: 2;
             }
             
             .navigation {
@@ -488,11 +495,11 @@
             .nav-menu-row .nav-links {
                 display: flex;
                 gap: 4px;
-                margin-left: auto;
-                margin-right: 0;
+                margin: 0;
                 position: relative;
-                justify-content: flex-end;
+                justify-content: center;
                 align-items: center;
+                flex: 1;
             }
             
             .nav-menu-row .nav-links a {
@@ -505,30 +512,45 @@
                 font-size: 0.95em;
             }
             
-            .nav-menu-row .nav-links.show {
+            .nav-menu-row .nav-links.show::after {
+                content: '';
                 position: absolute;
                 top: 100%;
                 right: 0;
-                left: auto;
                 width: 150px;
                 max-width: calc(100vw - 40px);
                 background: #cc0000;
                 border: 1px solid #990000;
                 border-radius: 8px;
                 box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-                flex-direction: column;
+                padding: 4px 8px;
+                z-index: 999;
+                display: block;
+            }
+            
+            .nav-menu-row .nav-links.show {
+                position: relative;
+            }
+            
+            .nav-menu-row .nav-links.show .dropdown-menu {
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 150px;
+                max-width: calc(100vw - 40px);
+                background: #cc0000;
+                border: 1px solid #990000;
+                border-radius: 8px;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
                 padding: 4px 8px;
                 margin: 0;
                 z-index: 1000;
-                overflow: visible;
-                height: auto;
-                max-height: none;
+                display: flex;
+                flex-direction: column;
                 gap: 0;
-                justify-content: flex-start;
-                display: flex !important;
             }
             
-            .nav-menu-row .nav-links.show a {
+            .nav-menu-row .nav-links.show .dropdown-menu a {
                 display: flex !important;
                 padding: 6px 8px;
                 width: 100%;
@@ -546,7 +568,7 @@
                 background: transparent;
             }
             
-            .nav-menu-row .nav-links.show a:hover {
+            .nav-menu-row .nav-links.show .dropdown-menu a:hover {
                 background-color: rgba(255, 255, 255, 0.2);
                 color: #ffffff !important;
             }
@@ -578,7 +600,7 @@
                 font-size: 0.95em;
             }
             
-            .nav-menu-row .nav-links.show {
+            .nav-menu-row .nav-links.show .dropdown-menu {
                 top: 100%;
                 right: 0;
                 width: 140px;
@@ -588,7 +610,7 @@
                 border: 1px solid #990000;
             }
             
-            .nav-menu-row .nav-links.show a {
+            .nav-menu-row .nav-links.show .dropdown-menu a {
                 display: flex !important;
                 padding: 6px 8px;
                 font-size: 0.95em;
@@ -598,12 +620,12 @@
                 background: transparent;
             }
             
-            .nav-menu-row .nav-links.show a:hover {
+            .nav-menu-row .nav-links.show .dropdown-menu a:hover {
                 background-color: rgba(255, 255, 255, 0.2);
                 color: #ffffff !important;
             }
             
-            .nav-menu-row .nav-links.show a .nav-icon {
+            .nav-menu-row .nav-links.show .dropdown-menu a .nav-icon {
                 filter: brightness(0) saturate(100%) invert(100%);
             }
         }
@@ -678,29 +700,29 @@
             }
         }
         
-        /* Code Blocks and Syntax Highlighting - VS Code Dark Theme */
+        /* Code Blocks and Syntax Highlighting - GitHub Default Theme */
         code {
-            background: #1e1e1e;
-            color: #d4d4d4;
+            background: #f6f8fa;
+            color: #24292f;
             padding: 3px 6px;
-            border-radius: 3px;
-            font-family: 'Consolas', 'Courier New', monospace;
-            font-size: 0.9em;
-            border: 1px solid #333;
+            border-radius: 6px;
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.85em;
+            border: 1px solid #d0d7de;
         }
         
         pre {
-            background: #1e1e1e;
-            color: #d4d4d4;
+            background: #f6f8fa;
+            color: #24292f;
             border-radius: 6px;
-            padding: 20px;
+            padding: 16px;
             overflow-x: auto;
-            margin: 20px 0;
-            border: 1px solid #333;
+            margin: 16px 0;
+            border: 1px solid #d0d7de;
             position: relative;
-            font-family: 'Consolas', 'Courier New', monospace;
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
             font-size: 14px;
-            line-height: 1.4;
+            line-height: 1.45;
         }
         
         pre code {
@@ -714,44 +736,12 @@
         }
         
         .highlight {
-            background: #1e1e1e;
+            background: #f6f8fa;
             border-radius: 6px;
-            padding: 20px;
+            padding: 16px;
             overflow-x: auto;
-            margin: 20px 0;
-            border: 1px solid #333;
-            position: relative;
-        }
-        
-        /* Copy button for code blocks */
-        .highlight::after {
-            content: '📋';
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            color: #9cdcfe;
-            font-size: 16px;
-            cursor: pointer;
-            background: rgba(156, 220, 254, 0.1);
-            padding: 6px 8px;
-            border-radius: 4px;
-            border: 1px solid rgba(156, 220, 254, 0.3);
-            transition: all 0.2s ease;
-            opacity: 0.7;
-            user-select: none;
-        }
-        
-        .highlight:hover::after {
-            opacity: 1;
-            background: rgba(156, 220, 254, 0.2);
-            transform: scale(1.05);
-        }
-        
-        .highlight.copied::after {
-            content: '✅';
-            color: #4ade80;
-            border-color: rgba(74, 222, 128, 0.3);
-            background: rgba(74, 222, 128, 0.1);
+            margin: 16px 0;
+            border: 1px solid #d0d7de;
         }
         
         .highlight pre {
@@ -759,94 +749,88 @@
             padding: 0;
             background: transparent;
             border: none;
-            font-family: 'Consolas', 'Courier New', monospace;
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
             font-size: 14px;
-            line-height: 1.4;
+            line-height: 1.45;
         }
         
-        /* VS Code Dark Theme Syntax Colors */
-        .highlight .c { color: #6a9955; font-style: italic; } /* Comment - Green */
-        .highlight .cm { color: #6a9955; font-style: italic; } /* Comment Multiline */
-        .highlight .cp { color: #9cdcfe; } /* Comment Preproc - Light Blue */
-        .highlight .c1 { color: #6a9955; font-style: italic; } /* Comment Single */
+        /* GitHub Default Theme Syntax Colors */
+        .highlight .c { color: #6a737d; font-style: italic; } /* Comment - Gray */
+        .highlight .cm { color: #6a737d; font-style: italic; } /* Comment Multiline */
+        .highlight .cp { color: #005cc5; } /* Comment Preproc - Blue */
+        .highlight .c1 { color: #6a737d; font-style: italic; } /* Comment Single */
         
-        .highlight .k { color: #569cd6; font-weight: normal; } /* Keyword - Blue */
-        .highlight .kc { color: #569cd6; } /* Keyword Constant */
-        .highlight .kd { color: #569cd6; } /* Keyword Declaration */
-        .highlight .kn { color: #569cd6; } /* Keyword Namespace */
-        .highlight .kp { color: #569cd6; } /* Keyword Pseudo */
-        .highlight .kr { color: #569cd6; } /* Keyword Reserved */
-        .highlight .kt { color: #569cd6; } /* Keyword Type */
+        .highlight .k { color: #d73a49; font-weight: normal; } /* Keyword - Red */
+        .highlight .kc { color: #005cc5; } /* Keyword Constant - Blue */
+        .highlight .kd { color: #d73a49; } /* Keyword Declaration - Red */
+        .highlight .kn { color: #d73a49; } /* Keyword Namespace - Red */
+        .highlight .kp { color: #d73a49; } /* Keyword Pseudo - Red */
+        .highlight .kr { color: #d73a49; } /* Keyword Reserved - Red */
+        .highlight .kt { color: #d73a49; } /* Keyword Type - Red */
         
-        .highlight .s { color: #ce9178; } /* String - Orange */
-        .highlight .s1 { color: #ce9178; } /* String Single */
-        .highlight .s2 { color: #ce9178; } /* String Double */
-        .highlight .sb { color: #ce9178; } /* String Backtick */
-        .highlight .sc { color: #ce9178; } /* String Char */
-        .highlight .sd { color: #ce9178; } /* String Doc */
-        .highlight .se { color: #d7ba7d; } /* String Escape */
-        .highlight .sh { color: #ce9178; } /* String Heredoc */
-        .highlight .si { color: #ce9178; } /* String Interpol */
-        .highlight .sx { color: #ce9178; } /* String Other */
-        .highlight .sr { color: #ce9178; } /* String Regex */
-        .highlight .ss { color: #ce9178; } /* String Symbol */
+        .highlight .s { color: #032f62; } /* String - Dark Blue */
+        .highlight .s1 { color: #032f62; } /* String Single */
+        .highlight .s2 { color: #032f62; } /* String Double */
+        .highlight .sb { color: #032f62; } /* String Backtick */
+        .highlight .sc { color: #032f62; } /* String Char */
+        .highlight .sd { color: #032f62; } /* String Doc */
+        .highlight .se { color: #032f62; } /* String Escape */
+        .highlight .sh { color: #032f62; } /* String Heredoc */
+        .highlight .si { color: #032f62; } /* String Interpol */
+        .highlight .sx { color: #032f62; } /* String Other */
+        .highlight .sr { color: #032f62; } /* String Regex */
+        .highlight .ss { color: #032f62; } /* String Symbol */
         
-        .highlight .n { color: #9cdcfe; } /* Name - Light Blue */
-        .highlight .na { color: #92c5f8; } /* Name Attribute */
-        .highlight .nb { color: #569cd6; } /* Name Builtin */
-        .highlight .nc { color: #4ec9b0; } /* Name Class - Teal */
-        .highlight .nd { color: #569cd6; } /* Name Decorator */
-        .highlight .ne { color: #4ec9b0; } /* Name Exception */
-        .highlight .nf { color: #dcdcaa; } /* Name Function - Yellow */
-        .highlight .ni { color: #d4d4d4; } /* Name Entity */
-        .highlight .nl { color: #d4d4d4; } /* Name Label */
-        .highlight .nn { color: #4ec9b0; } /* Name Namespace */
-        .highlight .no { color: #569cd6; } /* Name Constant */
-        .highlight .nt { color: #569cd6; } /* Name Tag */
-        .highlight .nv { color: #9cdcfe; } /* Name Variable */
-        .highlight .nx { color: #9cdcfe; } /* Name Other */
+        .highlight .n { color: #24292f; } /* Name - Black */
+        .highlight .na { color: #6f42c1; } /* Name Attribute - Purple */
+        .highlight .nb { color: #005cc5; } /* Name Builtin - Blue */
+        .highlight .nc { color: #6f42c1; } /* Name Class - Purple */
+        .highlight .nd { color: #6f42c1; } /* Name Decorator - Purple */
+        .highlight .ne { color: #6f42c1; } /* Name Exception - Purple */
+        .highlight .nf { color: #6f42c1; } /* Name Function - Purple */
+        .highlight .ni { color: #24292f; } /* Name Entity */
+        .highlight .nl { color: #24292f; } /* Name Label */
+        .highlight .nn { color: #24292f; } /* Name Namespace */
+        .highlight .no { color: #005cc5; } /* Name Constant - Blue */
+        .highlight .nt { color: #22863a; } /* Name Tag - Green */
+        .highlight .nv { color: #e36209; } /* Name Variable - Orange */
+        .highlight .nx { color: #24292f; } /* Name Other */
         
-        .highlight .m { color: #b5cea8; } /* Number - Light Green */
-        .highlight .mi { color: #b5cea8; } /* Number Integer */
-        .highlight .mf { color: #b5cea8; } /* Number Float */
-        .highlight .mh { color: #b5cea8; } /* Number Hex */
-        .highlight .mo { color: #b5cea8; } /* Number Oct */
+        .highlight .m { color: #005cc5; } /* Number - Blue */
+        .highlight .mi { color: #005cc5; } /* Number Integer */
+        .highlight .mf { color: #005cc5; } /* Number Float */
+        .highlight .mh { color: #005cc5; } /* Number Hex */
+        .highlight .mo { color: #005cc5; } /* Number Oct */
         
-        .highlight .o { color: #d4d4d4; } /* Operator */
-        .highlight .ow { color: #569cd6; } /* Operator Word */
+        .highlight .o { color: #d73a49; } /* Operator - Red */
+        .highlight .ow { color: #d73a49; } /* Operator Word - Red */
         
-        .highlight .p { color: #d4d4d4; } /* Punctuation */
+        .highlight .p { color: #24292f; } /* Punctuation */
         
         .highlight .err { 
-            color: #f44747; 
-            background: rgba(244, 71, 71, 0.1);
-            border-radius: 2px;
+            color: #cb2431; 
+            background: #ffeef0;
+            border-radius: 3px;
             padding: 1px;
         } /* Error - Red */
         
-        .highlight .g { color: #d4d4d4; } /* Generic */
-        .highlight .gd { color: #f44747; } /* Generic Deleted */
-        .highlight .ge { color: #d4d4d4; font-style: italic; } /* Generic Emph */
-        .highlight .gr { color: #f44747; } /* Generic Error */
-        .highlight .gh { color: #569cd6; font-weight: bold; } /* Generic Heading */
-        .highlight .gi { color: #6a9955; } /* Generic Inserted */
-        .highlight .go { color: #808080; } /* Generic Output */
-        .highlight .gp { color: #569cd6; } /* Generic Prompt */
-        .highlight .gs { color: #d4d4d4; font-weight: bold; } /* Generic Strong */
-        .highlight .gu { color: #569cd6; font-weight: bold; } /* Generic Subheading */
-        .highlight .gt { color: #f44747; } /* Generic Traceback */
+        .highlight .g { color: #24292f; } /* Generic */
+        .highlight .gd { color: #d73a49; background: #ffeef0; } /* Generic Deleted */
+        .highlight .ge { color: #24292f; font-style: italic; } /* Generic Emph */
+        .highlight .gr { color: #d73a49; } /* Generic Error */
+        .highlight .gh { color: #005cc5; font-weight: bold; } /* Generic Heading */
+        .highlight .gi { color: #28a745; background: #f0fff4; } /* Generic Inserted */
+        .highlight .go { color: #6a737d; } /* Generic Output */
+        .highlight .gp { color: #005cc5; } /* Generic Prompt */
+        .highlight .gs { color: #24292f; font-weight: bold; } /* Generic Strong */
+        .highlight .gu { color: #6f42c1; font-weight: bold; } /* Generic Subheading */
+        .highlight .gt { color: #d73a49; } /* Generic Traceback */
         
-        /* Preprocessor directives */
-        .highlight .cp { color: #9cdcfe; } /* #include, #define, etc. */
-        
-        /* Data types */
-        .highlight .kt { color: #569cd6; } /* int, char, void, etc. */
-        
-        /* Function calls */
-        .highlight .nf { color: #dcdcaa; } /* Function names */
-        
-        /* Macros and constants */
-        .highlight .no { color: #4fc1ff; } /* ALL_CAPS constants */
+        /* Language specific highlighting */
+        .highlight .cp { color: #6a737d; } /* Preprocessor directives */
+        .highlight .kt { color: #d73a49; } /* Data types */
+        .highlight .nf { color: #6f42c1; } /* Function names */
+        .highlight .no { color: #005cc5; } /* Constants */
         
         /* Responsive Design */
         @media (max-width: 1024px) {
@@ -955,13 +939,19 @@
             }
             
             .highlight {
-                background: #f5f5f5 !important;
+                background: #f8f8f8 !important;
                 color: #333 !important;
-                border: 1px solid #ddd !important;
+                border: 1px solid #e1e4e8 !important;
             }
             
             .highlight * {
                 color: #333 !important;
+            }
+            
+            code {
+                background: #f8f8f8 !important;
+                color: #333 !important;
+                border: 1px solid #e1e4e8 !important;
             }
         }
     </style>
@@ -983,8 +973,11 @@
         <a href="/automotive/" class="nav-priority"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
         <a href="/kits/" class="nav-priority"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Kits</a>
         <a href="/blog/" class="nav-priority"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
-        <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
-        <a href="mailto:thienaiho95@gmail.com"><img src="/assets/icons/contact.svg" alt="" class="nav-icon"> Contact</a>
+        <div class="dropdown-menu" id="dropdownMenu">
+          <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
+          <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
+          <a href="mailto:thienaiho95@gmail.com"><img src="/assets/icons/contact.svg" alt="" class="nav-icon"> Contact</a>
+        </div>
       </div>
       <button class="mobile-menu-button" onclick="toggleMobileMenu()" aria-label="Toggle menu">
         <span>☰</span>
@@ -1100,67 +1093,7 @@
         });
         
         document.addEventListener('DOMContentLoaded', function() {
-            // Add click event to all code blocks
-            const codeBlocks = document.querySelectorAll('.highlight');
-            
-            codeBlocks.forEach(function(block) {
-                block.addEventListener('click', function(e) {
-                    // Check if click was on the copy icon area (top-right corner)
-                    const rect = block.getBoundingClientRect();
-                    const clickX = e.clientX - rect.left;
-                    const clickY = e.clientY - rect.top;
-                    
-                    // Copy icon is positioned at top: 10px, right: 15px with ~40px width/height
-                    if (clickX > rect.width - 60 && clickY < 50) {
-                        // Get the code text
-                        const codeElement = block.querySelector('pre code') || block.querySelector('pre');
-                        const codeText = codeElement.textContent;
-                        
-                        // Copy to clipboard
-                        if (navigator.clipboard && window.isSecureContext) {
-                            navigator.clipboard.writeText(codeText).then(function() {
-                                showCopyFeedback(block);
-                            }).catch(function(err) {
-                                fallbackCopy(codeText, block);
-                            });
-                        } else {
-                            fallbackCopy(codeText, block);
-                        }
-                    }
-                });
-                
-                // Add title attribute for tooltip
-                block.setAttribute('title', 'Click the 📋 icon to copy code');
-            });
-            
-            function showCopyFeedback(block) {
-                block.classList.add('copied');
-                setTimeout(function() {
-                    block.classList.remove('copied');
-                }, 2000);
-            }
-            
-            function fallbackCopy(text, block) {
-                // Fallback for older browsers
-                const textArea = document.createElement('textarea');
-                textArea.value = text;
-                textArea.style.position = 'fixed';
-                textArea.style.left = '-999999px';
-                textArea.style.top = '-999999px';
-                document.body.appendChild(textArea);
-                textArea.focus();
-                textArea.select();
-                
-                try {
-                    document.execCommand('copy');
-                    showCopyFeedback(block);
-                } catch (err) {
-                    console.error('Failed to copy: ', err);
-                    alert('Failed to copy code to clipboard');
-                }
-                
-                document.body.removeChild(textArea);
-            }
+            // Mobile menu and other initialization code can go here if needed
         });
     </script>
 </body>
