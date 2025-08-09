@@ -111,14 +111,36 @@
             border-bottom: 1px solid transparent;
             transition: all 0.2s ease;
             font-size: 0.95em;
+            position: relative;
+            padding-left: 24px;
+        }
+        
+        .sidebar-section a::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            background-image: url('/assets/icons/arrow-list.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            filter: brightness(0) saturate(100%) invert(70%);
+            transition: filter 0.2s ease;
         }
         
         .sidebar-section a:hover {
             color: #0550ae;
             background-color: #f7fafc;
-            padding-left: 8px;
+            padding-left: 32px;
             border-bottom: 1px solid #e2e8f0;
             text-decoration: underline;
+        }
+        
+        .sidebar-section a:hover::before {
+            filter: brightness(0) saturate(100%) invert(50%);
         }
         
         /* Post count styling */
@@ -1000,10 +1022,10 @@
             <div class="sidebar-section">
                 <h3>Categories</h3>
                 <ul>
-                    <li><a href="/embedded/">🛠️ Embedded Programming <span class="post-count">(8)</span></a></li>
-                    <li><a href="/automotive/">🚗 Automotive Software <span class="post-count">(5)</span></a></li>
-                    <li><a href="/blog/">💡 Personal Blog <span class="post-count">(12)</span></a></li>
-                    <li><a href="/kits/">📦 Development Kits <span class="post-count">(3)</span></a></li>
+                    <li><a href="/embedded/">Embedded Programming <span class="post-count">(8)</span></a></li>
+                    <li><a href="/automotive/">Automotive Software <span class="post-count">(5)</span></a></li>
+                    <li><a href="/blog/">Personal Blog <span class="post-count">(12)</span></a></li>
+                    <li><a href="/kits/">Development Kits <span class="post-count">(3)</span></a></li>
                 </ul>
             </div>
             
@@ -1030,16 +1052,16 @@
             <div class="sidebar-section">
                 <h3>Social Networks</h3>
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/thien-ai-ho" target="_blank">💼 LinkedIn</a></li>
-                    <li><a href="https://substack.com/@thienaiho" target="_blank">📰 Substack</a></li>
+                    <li><a href="https://www.linkedin.com/in/thien-ai-ho" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://substack.com/@thienaiho" target="_blank">Substack</a></li>
                 </ul>
             </div>
             
             <div class="sidebar-section">
                 <h3>Contact</h3>
                 <ul>
-                    <li><a href="mailto:thienaiho95@gmail.com">📧 Email</a></li>
-                    <li><a href="https://github.com/ai-ho">🐙 GitHub</a></li>
+                    <li><a href="mailto:thienaiho95@gmail.com">Email</a></li>
+                    <li><a href="https://github.com/ai-ho">GitHub</a></li>
                 </ul>
             </div>
         </aside>
