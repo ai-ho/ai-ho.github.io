@@ -1,67 +1,4 @@
 <!DOCTYPE html>
-<!--
-========================================
-TOPIC CARDS TEMPLATE - USAGE GUIDE
-========================================
-
-This template creates a layout with topic cards - rectangular cards with linked sub-pages.
-Each card contains a square image, title, description, and metadata.
-
-HOW TO USE:
-1. Create a new page with this layout:
-   ---
-   layout: topic-cards
-   title: "Your Page Title"
-   description: "Page description for SEO"
-   ---
-
-2. Add page header (optional):
-   <div class="page-header">
-       <h1 class="page-title">Your Main Title</h1>
-       <p class="page-subtitle">Subtitle or description</p>
-   </div>
-
-3. Create the topic cards container:
-   <div class="topic-cards-container">
-       <!-- Your topic cards go here -->
-   </div>
-
-4. Add individual topic cards using this structure:
-   <a href="/path/to/topic/" class="topic-card">
-       <div class="topic-image" style="background-image: url('/path/to/image.png');"></div>
-       <div class="topic-content">
-           <h2 class="topic-title">Topic Title</h2>
-           <p class="topic-description">Brief description of the topic content...</p>
-           <div class="topic-meta">
-               <span class="topic-difficulty beginner">Beginner</span>
-               <span class="topic-time">⏱️ 2-3 giờ</span>
-           </div>
-           <div class="topic-tags">
-               <span class="topic-tag">Tag1</span>
-               <span class="topic-tag">Tag2</span>
-           </div>
-       </div>
-   </a>
-
-DIFFICULTY LEVELS:
-- beginner    (green background)
-- intermediate (orange background)  
-- advanced    (red background)
-
-IMAGE REQUIREMENTS:
-- Square images work best (120x120px minimum)
-- Use background-image style for proper scaling
-- Images should be optimized for web
-
-RESPONSIVE BEHAVIOR:
-- Desktop: Horizontal layout (image left, content right)
-- Mobile: Stacked layout (image top, content bottom)
-
-EXAMPLE USAGE:
-See /_examples/topic-cards-example.md for a complete example
-
-========================================
--->
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -161,6 +98,7 @@ See /_examples/topic-cards-example.md for a complete example
             background-position: center;
             background-repeat: no-repeat;
             border-radius: 0;
+            margin-left: 20px;
         }
         
         /* Topic Content */
@@ -698,7 +636,7 @@ See /_examples/topic-cards-example.md for a complete example
         <a href="/kits/" class="nav-priority"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Kits</a>
         <a href="/blog/"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
         <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
-        <a href="/contact/"><img src="/assets/icons/contact.svg" alt="" class="nav-icon"> Contact</a>
+        <a href="/aboutme/"><img src="/assets/icons/contact.svg" alt="" class="nav-icon"> About me</a>
         <div class="dropdown-menu" id="dropdownMenu">
           <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
           <a href="/embedded/"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Embedded</a>
@@ -706,7 +644,7 @@ See /_examples/topic-cards-example.md for a complete example
           <a href="/kits/"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Kits</a>
           <a href="/blog/"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
           <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
-          <a href="/contact/"><img src="/assets/icons/contact.svg" alt="" class="nav-icon"> Contact</a>
+          <a href="/aboutme/"><img src="/assets/icons/contact.svg" alt="" class="nav-icon"> About me</a>
         </div>
       </div>
       <button class="mobile-menu-button" onclick="toggleMobileMenu()" aria-label="Toggle menu">
@@ -780,7 +718,7 @@ See /_examples/topic-cards-example.md for a complete example
                 <a href="/kits/">Kits</a>
                 <a href="/blog/">Blog</a>
                 <a href="https://github.com/ai-ho">Github</a>
-                <a href="/contact/">Contact</a>
+                <a href="/aboutme/">About me</a>
             </div>
             <div class="footer-info">
                 <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="footer-avatar">
