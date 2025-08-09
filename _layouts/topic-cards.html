@@ -49,8 +49,8 @@
         /* Content Container */
         main {
             background: #ffffff;
-            border: 1px solid #d1d9e0;
-            border-radius: 6px;
+            border: none;
+            border-radius: 0;
             padding: 40px;
             margin: 20px 0;
             flex: 1;
@@ -78,12 +78,12 @@
             text-decoration: none;
             color: inherit;
             overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
         }
         
         .topic-card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.15);
             border-color: #4299e1;
             text-decoration: none;
             color: inherit;
@@ -240,7 +240,9 @@
         }
         
         .sidebar-section h3 {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             font-size: 1.05em;
+            font-weight: 400;
             color: #2d3748;
             margin-top: 0;
             margin-bottom: 12px;
@@ -553,11 +555,208 @@
             }
         }
         
+        /* Navigation Compression for Intermediate Screens */
+        @media (max-width: 1024px) and (min-width: 769px) {
+            .mobile-menu-button {
+                display: block;
+                margin-left: auto;
+                order: 2;
+            }
+            
+            .nav-menu-row {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                gap: 8px;
+                padding: 6px 20px;
+                position: relative;
+                height: 48px;
+                min-height: 48px;
+                max-height: 48px;
+                overflow: visible;
+            }
+            
+            .nav-menu-row .nav-links {
+                display: flex;
+                gap: 4px;
+                margin: 0;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                flex: 1;
+            }
+            
+            .nav-menu-row .nav-links a {
+                display: none;
+            }
+            
+            .nav-menu-row .nav-links a.nav-priority {
+                display: inline-flex;
+                padding: 4px 8px;
+                font-size: 0.95em;
+            }
+            
+            .nav-menu-row .nav-links.show::after {
+                content: '';
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 150px;
+                max-width: calc(100vw - 40px);
+                background: #cc0000;
+                border: 1px solid #990000;
+                border-radius: 8px;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+                padding: 4px 8px;
+                z-index: 999;
+                display: block;
+            }
+            
+            .nav-menu-row .nav-links.show {
+                position: relative;
+            }
+            
+            .nav-menu-row .nav-links.show .dropdown-menu {
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 150px;
+                max-width: calc(100vw - 40px);
+                background: #cc0000;
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+                padding: 4px 8px;
+                margin: 0;
+                z-index: 1000;
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+            }
+            
+            .nav-menu-row .nav-links.show .dropdown-menu a {
+                display: flex !important;
+                padding: 6px 8px;
+                width: 100%;
+                text-align: left;
+                border-radius: 3px;
+                margin: 0;
+                font-size: 0.95em;
+                justify-content: flex-start;
+                box-sizing: border-box;
+                white-space: nowrap;
+                overflow: visible;
+                line-height: 1.2;
+                min-height: auto;
+                color: #ffffff !important;
+                background: transparent;
+            }
+            
+            .nav-menu-row .nav-links.show .dropdown-menu a:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+                color: #ffffff !important;
+            }
+        }
+        
         @media (max-width: 768px) {
             .mobile-menu-button {
                 display: block;
                 margin-left: auto;
                 order: 2;
+            }
+            
+            .nav-menu-row {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                gap: 8px;
+                padding: 6px 20px;
+                position: relative;
+                height: 44px;
+                min-height: 44px;
+                max-height: 44px;
+                overflow: visible;
+            }
+            
+            .nav-menu-row .nav-links {
+                display: flex;
+                gap: 4px;
+                margin: 0;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                flex: 1;
+            }
+            
+            .nav-menu-row .nav-links a {
+                display: none;
+            }
+            
+            .nav-menu-row .nav-links a.nav-priority {
+                display: inline-flex;
+                padding: 4px 8px;
+                font-size: 0.95em;
+            }
+            
+            .nav-menu-row .nav-links.show::after {
+                content: '';
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 150px;
+                max-width: calc(100vw - 40px);
+                background: #cc0000;
+                border: 1px solid #990000;
+                border-radius: 8px;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+                padding: 4px 8px;
+                z-index: 999;
+                display: block;
+            }
+            
+            .nav-menu-row .nav-links.show {
+                position: relative;
+            }
+            
+            .nav-menu-row .nav-links.show .dropdown-menu {
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 150px;
+                max-width: calc(100vw - 40px);
+                background: #cc0000;
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+                padding: 4px 8px;
+                margin: 0;
+                z-index: 1000;
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+            }
+            
+            .nav-menu-row .nav-links.show .dropdown-menu a {
+                display: flex !important;
+                padding: 6px 8px;
+                width: 100%;
+                text-align: left;
+                border-radius: 3px;
+                margin: 0;
+                font-size: 0.95em;
+                justify-content: flex-start;
+                box-sizing: border-box;
+                white-space: nowrap;
+                overflow: visible;
+                line-height: 1.2;
+                min-height: auto;
+                color: #ffffff !important;
+                background: transparent;
+            }
+            
+            .nav-menu-row .nav-links.show .dropdown-menu a:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+                color: #ffffff !important;
             }
             
             .topic-card {
@@ -749,7 +948,7 @@
         
         window.addEventListener('resize', function() {
             const navLinks = document.getElementById('navLinks');
-            if (window.innerWidth > 768 && navLinks.classList.contains('show')) {
+            if (window.innerWidth > 768 && navLinks && navLinks.classList.contains('show')) {
                 navLinks.classList.remove('show');
             }
         });
