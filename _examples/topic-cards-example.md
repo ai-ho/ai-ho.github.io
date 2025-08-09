@@ -12,8 +12,8 @@ description: "Complete example showing how to use the topic-cards layout with mu
 <div class="topic-cards-container">
     
     <!-- Beginner Level: IoT Monitoring System -->
-    <a href="/embedded/iot-monitoring/" class="topic-card">
-        <div class="topic-image" style="background-image: url('/embedded/assets/iot-monitoring-system-main.png');"></div>
+    <a href="/fundamentals/iot-monitoring/" class="topic-card">
+        <div class="topic-image" style="background-image: url('/fundamentals/assets/iot-monitoring-system-main.png');"></div>
         <div class="topic-content">
             <h2 class="topic-title">IoT Monitoring System với STM32</h2>
             <p class="topic-description">Xây dựng hệ thống giám sát IoT hoàn chỉnh sử dụng STM32, ESP8266, và cloud platform. Học cách kết nối sensors, truyền dữ liệu wireless, và hiển thị realtime dashboard.</p>
@@ -31,8 +31,8 @@ description: "Complete example showing how to use the topic-cards layout with mu
     </a>
     
     <!-- Beginner Level: Embedded C Programming Structure -->
-    <a href="/embedded/prog-structure/" class="topic-card">
-        <div class="topic-image" style="background-image: url('/embedded/assets/embedded-programming-structure.png');"></div>
+    <a href="/fundamentals/prog-structure/" class="topic-card">
+        <div class="topic-image" style="background-image: url('/fundamentals/assets/embedded-programming-structure.png');"></div>
         <div class="topic-content">
             <h2 class="topic-title">Cấu trúc chương trình Embedded C</h2>
             <p class="topic-description">Hướng dẫn chi tiết về cách tổ chức code trong embedded systems. Từ project structure, header files, đến memory management và optimization techniques.</p>
@@ -104,8 +104,8 @@ description: "Complete example showing how to use the topic-cards layout with mu
     </a>
     
     <!-- Advanced Level: Real-time Operating Systems -->
-    <a href="/embedded/rtos/" class="topic-card">
-        <div class="topic-image" style="background-image: url('/embedded/assets/freertos-tasks.png');"></div>
+    <a href="/fundamentals/rtos/" class="topic-card">
+        <div class="topic-image" style="background-image: url('/fundamentals/assets/freertos-tasks.png');"></div>
         <div class="topic-content">
             <h2 class="topic-title">Real-time Operating Systems (RTOS)</h2>
             <p class="topic-description">Tìm hiểu về RTOS concepts và practical implementation với FreeRTOS. Covers tasks, scheduling, synchronization, và memory management trong embedded systems.</p>
@@ -210,7 +210,7 @@ Use this template for each topic card:
 ### Example Topics Structure:
 
 ```
-/embedded/
+/fundamentals/
 ├── intro/               (Beginner topic)
 ├── prog-structure/      (Beginner/Intermediate)
 ├── iot-monitoring/      (Intermediate topic)

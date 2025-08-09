@@ -6,8 +6,8 @@ date: YYYY-MM-DD
 categories: [embedded, microcontroller, project]
 tags: [stm32, arduino, embedded-c, hardware]
 author: Hồ Thiện Ái
-image: /embedded/assets/your-project-main-image.png
-featured_image: /embedded/assets/your-project-featured.jpg
+image: /fundamentals/assets/your-project-main-image.png
+featured_image: /fundamentals/assets/your-project-featured.jpg
 difficulty: beginner|intermediate|advanced
 estimated_time: "2-4 giờ"
 components:
@@ -51,7 +51,7 @@ tools:
 
 ### Mô tả dự án
 
-![Sơ đồ khối hệ thống](/embedded/assets/system-block-diagram.png)
+![Sơ đồ khối hệ thống](/fundamentals/assets/system-block-diagram.png)
 *Sơ đồ khối tổng quan của hệ thống*
 
 Mô tả ngắn gọn về dự án embedded của bạn và mục tiêu cần đạt được:
@@ -80,7 +80,7 @@ Sau khi hoàn thành dự án này, bạn sẽ:
 
 ### Phần cứng cần thiết
 
-![Linh kiện dự án](/embedded/assets/components-layout.jpg)
+![Linh kiện dự án](/fundamentals/assets/components-layout.jpg)
 *Các linh kiện cần thiết cho dự án*
 
 **Vi điều khiển:**
@@ -96,7 +96,7 @@ Sau khi hoàn thành dự án này, bạn sẽ:
 
 ### Phần mềm và công cụ
 
-![Môi trường phát triển](/embedded/assets/development-environment.png)
+![Môi trường phát triển](/fundamentals/assets/development-environment.png)
 *Screenshot môi trường phát triển*
 
 **IDE và Tools:**
@@ -126,7 +126,7 @@ cd embedded_project
 
 ### Sơ đồ mạch điện
 
-![Sơ đồ mạch chi tiết](/embedded/assets/detailed-circuit-diagram.png)
+![Sơ đồ mạch chi tiết](/fundamentals/assets/detailed-circuit-diagram.png)
 *Sơ đồ mạch điện chi tiết với pin mapping*
 
 ### Bảng kết nối
@@ -142,7 +142,7 @@ cd embedded_project
 
 ### PCB Layout (nếu có)
 
-![PCB Layout](/embedded/assets/pcb-layout.png)
+![PCB Layout](/fundamentals/assets/pcb-layout.png)
 *Layout PCB cho dự án (nếu thiết kế PCB)*
 
 ### Power Analysis
@@ -158,7 +158,7 @@ cd embedded_project
 
 ### Cấu hình STM32CubeIDE
 
-![CubeIDE Configuration](/embedded/assets/cubeide-config.png)
+![CubeIDE Configuration](/fundamentals/assets/cubeide-config.png)
 *Screenshot cấu hình project trong STM32CubeIDE*
 
 #### Bước 1: Tạo project mới
@@ -172,12 +172,12 @@ Toolchain: STM32CubeIDE
 
 #### Bước 2: Cấu hình Clock
 
-![Clock Configuration](/embedded/assets/clock-config.png)
+![Clock Configuration](/fundamentals/assets/clock-config.png)
 *Cấu hình clock tree*
 
 #### Bước 3: Pin Configuration
 
-![Pin Configuration](/embedded/assets/pin-config.png)
+![Pin Configuration](/fundamentals/assets/pin-config.png)
 *Cấu hình chân I/O trong CubeMX*
 
 ---
@@ -236,7 +236,7 @@ int main(void)
 
 ### GPIO Configuration
 
-![GPIO Setup](/embedded/assets/gpio-setup-code.png)
+![GPIO Setup](/fundamentals/assets/gpio-setup-code.png)
 *Screenshot code cấu hình GPIO*
 
 ```c
@@ -340,7 +340,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
 ### Unit Testing
 
-![Debug Session](/embedded/assets/debug-session.png)
+![Debug Session](/fundamentals/assets/debug-session.png)
 *Screenshot debug session trong IDE*
 
 #### Bước kiểm tra cơ bản
@@ -369,7 +369,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
 ### Integration Testing
 
-![Oscilloscope Measurement](/embedded/assets/oscilloscope-measurement.jpg)
+![Oscilloscope Measurement](/fundamentals/assets/oscilloscope-measurement.jpg)
 *Đo tín hiệu bằng oscilloscope*
 
 #### Test Cases
@@ -402,7 +402,7 @@ void measure_execution_time(void) {
 
 ### Video Demo
 
-![Demo Setup](/embedded/assets/demo-setup.jpg)
+![Demo Setup](/fundamentals/assets/demo-setup.jpg)
 *Setup demo dự án*
 
 [🎥 **Video Demo**](https://youtube.com/demo-link)
@@ -410,10 +410,10 @@ void measure_execution_time(void) {
 
 ### Screenshots Results
 
-![Result Screenshot 1](/embedded/assets/result-1.png)
+![Result Screenshot 1](/fundamentals/assets/result-1.png)
 *Giao diện monitor serial output*
 
-![Result Screenshot 2](/embedded/assets/result-2.jpg)
+![Result Screenshot 2](/fundamentals/assets/result-2.jpg)
 *Hình ảnh dự án hoạt động thực tế*
 
 ### Performance Metrics
@@ -431,7 +431,7 @@ void measure_execution_time(void) {
 
 ### Vấn đề thường gặp
 
-![Troubleshooting Guide](/embedded/assets/troubleshooting-flowchart.png)
+![Troubleshooting Guide](/fundamentals/assets/troubleshooting-flowchart.png)
 *Flowchart troubleshooting*
 
 | Vấn đề | Nguyên nhân có thể | Giải pháp |
@@ -465,7 +465,7 @@ void measure_execution_time(void) {
 
 ### Tính năng mở rộng
 
-![Feature Roadmap](/embedded/assets/feature-roadmap.png)
+![Feature Roadmap](/fundamentals/assets/feature-roadmap.png)
 *Roadmap phát triển các tính năng*
 
 #### Phase 1: Basic Features ✅

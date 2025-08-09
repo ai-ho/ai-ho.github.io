@@ -13,7 +13,7 @@ permalink: /topic-cards-demo/
 <div class="topic-cards-container">
     
     <!-- Example: Embedded Programming -->
-    <a href="/embedded/intro/" class="topic-card">
+    <a href="/fundamentals/intro/" class="topic-card">
         <div class="topic-image" style="background-image: url('/assets/Embedded.jpg');"></div>
         <div class="topic-content">
             <h2 class="topic-title">Introduction to Embedded Programming</h2>

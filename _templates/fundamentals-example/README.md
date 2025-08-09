@@ -28,7 +28,7 @@
 
 ### Mô tả dự án
 
-![Sơ đồ khối hệ thống](/embedded/assets/iot-system-block-diagram.png)
+![Sơ đồ khối hệ thống](/fundamentals/assets/iot-system-block-diagram.png)
 *Sơ đồ khối tổng quan của hệ thống IoT monitoring*
 
 Dự án này xây dựng một hệ thống giám sát môi trường thông minh với các tính năng:
@@ -58,7 +58,7 @@ Sau khi hoàn thành dự án này, bạn sẽ:
 
 ### Phần cứng cần thiết
 
-![Linh kiện dự án](/embedded/assets/iot-components-layout.jpg)
+![Linh kiện dự án](/fundamentals/assets/iot-components-layout.jpg)
 *Các linh kiện cần thiết cho dự án IoT monitoring*
 
 **Vi điều khiển và modules:**
@@ -74,7 +74,7 @@ Sau khi hoàn thành dự án này, bạn sẽ:
 
 ### Phần mềm và công cụ
 
-![Môi trường phát triển](/embedded/assets/iot-development-environment.png)
+![Môi trường phát triển](/fundamentals/assets/iot-development-environment.png)
 *Screenshot môi trường phát triển cho IoT project*
 
 **IDE và Tools:**
@@ -107,7 +107,7 @@ git clone https://github.com/adafruit/Adafruit_SSD1306
 
 ### Sơ đồ mạch điện
 
-![Sơ đồ mạch chi tiết](/embedded/assets/iot-detailed-circuit-diagram.png)
+![Sơ đồ mạch chi tiết](/fundamentals/assets/iot-detailed-circuit-diagram.png)
 *Sơ đồ mạch điện chi tiết với pin mapping*
 
 ### Bảng kết nối
@@ -125,7 +125,7 @@ git clone https://github.com/adafruit/Adafruit_SSD1306
 
 ### Power Budget Analysis
 
-![Power Analysis](/embedded/assets/power-consumption-analysis.png)
+![Power Analysis](/fundamentals/assets/power-consumption-analysis.png)
 *Phân tích công suất tiêu thụ của hệ thống*
 
 | Component | Operating Current | Sleep Current | Notes |
@@ -142,7 +142,7 @@ git clone https://github.com/adafruit/Adafruit_SSD1306
 
 ### Cấu hình STM32CubeIDE
 
-![CubeIDE Configuration](/embedded/assets/cubemx-iot-config.png)
+![CubeIDE Configuration](/fundamentals/assets/cubemx-iot-config.png)
 *Screenshot cấu hình project trong STM32CubeMX*
 
 #### Bước 1: Clock Configuration
@@ -181,7 +181,7 @@ void SystemClock_Config(void)
 
 #### Bước 2: Peripheral Configuration
 
-![Peripheral Configuration](/embedded/assets/peripheral-config-iot.png)
+![Peripheral Configuration](/fundamentals/assets/peripheral-config-iot.png)
 *Cấu hình các peripheral trong CubeMX*
 
 ### ESP8266 AT Commands Setup
@@ -532,7 +532,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
 ### Unit Testing Framework
 
-![Debug Session](/embedded/assets/iot-debug-session.png)
+![Debug Session](/fundamentals/assets/iot-debug-session.png)
 *Screenshot debug session trong STM32CubeIDE*
 
 #### Test Cases Implementation
@@ -598,7 +598,7 @@ TestResult_t test_wifi_connection(void)
 
 ### Integration Testing
 
-![System Integration Test](/embedded/assets/integration-test-setup.jpg)
+![System Integration Test](/fundamentals/assets/integration-test-setup.jpg)
 *Setup cho integration testing với oscilloscope và logic analyzer*
 
 #### Performance Monitoring
@@ -647,12 +647,12 @@ void monitor_performance(void)
 
 ### Cloud Dashboard
 
-![ThingSpeak Dashboard](/embedded/assets/thingspeak-dashboard.png)
+![ThingSpeak Dashboard](/fundamentals/assets/thingspeak-dashboard.png)
 *Dashboard trên ThingSpeak hiển thị real-time sensor data*
 
 ### Mobile App Interface
 
-![Mobile App](/embedded/assets/mobile-app-interface.jpg)
+![Mobile App](/fundamentals/assets/mobile-app-interface.jpg)
 *Giao diện mobile app để monitoring từ xa*
 
 ### Performance Metrics
@@ -676,7 +676,7 @@ void monitor_performance(void)
 
 ### Common Issues Flowchart
 
-![Troubleshooting Guide](/embedded/assets/iot-troubleshooting-flowchart.png)
+![Troubleshooting Guide](/fundamentals/assets/iot-troubleshooting-flowchart.png)
 *Flowchart hướng dẫn troubleshooting*
 
 | Vấn đề | Triệu chứng | Nguyên nhân có thể | Giải pháp |
@@ -731,7 +731,7 @@ void debug_dump_sensor_data(void)
 
 ### Feature Roadmap
 
-![Feature Development Roadmap](/embedded/assets/iot-feature-roadmap.png)
+![Feature Development Roadmap](/fundamentals/assets/iot-feature-roadmap.png)
 *Roadmap phát triển các tính năng mở rộng*
 
 #### Phase 1: Advanced Sensing ✅

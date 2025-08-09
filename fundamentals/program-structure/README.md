@@ -1,7 +1,7 @@
 ## Cấu trúc chương trình Embedded C
 
 <p align="center">
-  <img src="/embedded/program-structure/img/prog_struct.png" alt="Cấu trúc chương trình Embedded C" style="width: 100vw" />
+  <img src="/fundamentals/program-structure/img/prog_struct.png" alt="Cấu trúc chương trình Embedded C" style="width: 100vw" />
 </p>
 
 Một chương trình Embedded C thường có cấu trúc đơn giản nhưng rất chặt chẽ để đảm bảo hiệu năng và độ tin cậy khi chạy trên vi điều khiển hoặc các hệ thống nhúng. Dưới đây là các thành phần cơ bản của một chương trình Embedded C:
@@ -76,4 +76,4 @@ void TIM1_IRQHandler(void) {
 
 ---
 
-👉 [Danh sách các bài viết về embedded C](/embedded/posts/)
+👉 [Danh sách các bài viết về embedded C](/fundamentals/posts/)

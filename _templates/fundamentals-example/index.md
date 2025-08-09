@@ -6,8 +6,8 @@ date: 2025-08-03
 categories: [embedded, iot, stm32, wifi]
 tags: [stm32f4, esp8266, mqtt, iot, sensors, cloud]
 author: Hồ Thiện Ái
-image: /embedded/assets/iot-monitoring-system-main.png
-featured_image: /embedded/assets/iot-monitoring-featured.jpg
+image: /fundamentals/assets/iot-monitoring-system-main.png
+featured_image: /fundamentals/assets/iot-monitoring-featured.jpg
 difficulty: intermediate
 estimated_time: "4-6 giờ"
 components:

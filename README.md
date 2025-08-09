@@ -22,7 +22,7 @@
 
 | Chủ đề                                   | Mô tả ngắn                                         |
 |-------------------------------------------|----------------------------------------------------|
-| [🛠️ Lập trình nhúng căn bản](/embedded/)           | Những kiến thức nền tảng về lập trình nhúng         |
+| [🛠️ Lập trình nhúng căn bản](/fundamentals/)           | Những kiến thức nền tảng về lập trình nhúng         |
 | [🚗 Phần mềm nhúng trên ô tô](/automotive/)          | Ứng dụng thực tế trong ngành công nghiệp ô tô      |
 | [💡 Kinh nghiệm làm việc](/blog/)              | Chia sẻ về quá trình làm việc và phát triển nghề   |
 | [🌱 Trải nghiệm cuộc sống](/blog/)             | Góc nhìn cá nhân về cuộc sống và sự nghiệp         |

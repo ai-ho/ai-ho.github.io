@@ -25,7 +25,7 @@ _templates/
 
 #### Embedded Post Template (`embedded-post-template.md`)  
 - **Sử dụng cho:** Các dự án embedded, hướng dẫn lập trình vi điều khiển
-- **Cách dùng:** Copy template → Rename → Đặt vào `/embedded/posts/` → Chỉnh sửa nội dung
+- **Cách dùng:** Copy template → Rename → Đặt vào `/fundamentals/posts/` → Chỉnh sửa nội dung
 
 ### 2. Examples hoàn chỉnh
 
@@ -167,7 +167,7 @@ _templates/
     ├── embedded-systems-overview.png
     └── c-programming-basics.jpg
 
-/embedded/posts/
+/fundamentals/posts/
 ├── 2025-08-01-led-blink-arduino.md
 ├── 2025-08-02-uart-communication-stm32.md
 └── assets/
