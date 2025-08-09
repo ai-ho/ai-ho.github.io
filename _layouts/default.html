@@ -422,7 +422,7 @@
         .nav-menu-row .nav-links a {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             color: #ffffff;
-            font-weight: 500;
+            font-weight: 400;
             text-decoration: none;
             padding: 4px 8px;
             border-radius: 6px;
@@ -512,8 +512,8 @@
                 left: auto;
                 width: 150px;
                 max-width: calc(100vw - 40px);
-                background: #f6f8fa;
-                border: 1px solid #d1d9e0;
+                background: #cc0000;
+                border: 1px solid #990000;
                 border-radius: 8px;
                 box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
                 flex-direction: column;
@@ -541,6 +541,13 @@
                 overflow: visible;
                 line-height: 1.2;
                 min-height: auto;
+                color: #ffffff !important;
+                background: transparent;
+            }
+            
+            .nav-menu-row .nav-links.show a:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+                color: #ffffff !important;
             }
         }
         
@@ -576,6 +583,8 @@
                 width: 140px;
                 max-width: calc(100vw - 30px);
                 padding: 3px 6px;
+                background: #cc0000;
+                border: 1px solid #990000;
             }
             
             .nav-menu-row .nav-links.show a {
@@ -584,6 +593,17 @@
                 font-size: 0.95em;
                 margin: 0;
                 line-height: 1.1;
+                color: #ffffff !important;
+                background: transparent;
+            }
+            
+            .nav-menu-row .nav-links.show a:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+                color: #ffffff !important;
+            }
+            
+            .nav-menu-row .nav-links.show a .nav-icon {
+                filter: brightness(0) saturate(100%) invert(100%);
             }
         }
         
@@ -958,10 +978,10 @@
     <div class="nav-menu-row">
       <div class="nav-links" id="navLinks">
         <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
-        <a href="/blog/" class="nav-priority"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
         <a href="/embedded/" class="nav-priority"><img src="/assets/icons/embedded.svg" alt="" class="nav-icon"> Embedded</a>
-        <a href="/automotive/"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
-        <a href="/kits/"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Kits</a>
+        <a href="/automotive/" class="nav-priority"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
+        <a href="/kits/" class="nav-priority"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Kits</a>
+        <a href="/blog/" class="nav-priority"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
         <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
         <a href="mailto:thienaiho95@gmail.com"><img src="/assets/icons/contact.svg" alt="" class="nav-icon"> Contact</a>
       </div>
@@ -1024,10 +1044,10 @@
         <div class="footer-content">
             <div class="footer-links">
                 <a href="/">Home</a>
-                <a href="/blog/">Blog</a>
                 <a href="/embedded/">Embedded</a>
                 <a href="/automotive/">Automotive</a>
                 <a href="/kits/">Kits</a>
+                <a href="/blog/">Blog</a>
                 <a href="https://github.com/ai-ho">Github</a>
                 <a href="mailto:thienaiho95@gmail.com">Contact</a>
             </div>
