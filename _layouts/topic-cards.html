@@ -82,7 +82,7 @@
             align-items: center;
             background: #ecf0f5;
             border: none;
-            border-radius: 8px;
+            border-radius: 0;
             padding: 0;
             min-height: 160px;
             transition: all 0.3s ease;
@@ -240,11 +240,6 @@
             padding: 16px;
             margin-bottom: 16px;
             transition: box-shadow 0.2s ease;
-            border-bottom: 1px solid #d1d5db;
-        }
-        
-        .sidebar-section:last-child {
-            border-bottom: none;
         }
         
         .sidebar-section:hover {
@@ -255,7 +250,7 @@
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             font-size: 1.05em;
             font-weight: 400;
-            color: #2d3748;
+            color: #093FB4;
             margin-top: 0;
             margin-bottom: 12px;
             padding-left: 0;
@@ -347,6 +342,9 @@
             top: 0;
             left: 0;
             z-index: 1001;
+            height: 64px;
+            min-height: 64px;
+            max-height: 64px;
         }
         
         .nav-menu-row {
@@ -390,6 +388,8 @@
             opacity: 0.8;
             transform: scale(1.02);
             border-bottom: none !important;
+            transform-origin: center center;
+            overflow: hidden;
         }
         
         .navigation .nav-avatar {
@@ -691,6 +691,9 @@
                 top: 0;
                 left: 0;
                 z-index: 1001;
+                height: 56px;
+                min-height: 56px;
+                max-height: 56px;
             }
             
             .nav-menu-row {
@@ -798,7 +801,7 @@
             .topic-image {
                 width: 100%;
                 height: 160px;
-                border-radius: 8px 8px 0 0;
+                border-radius: 0;
             }
             
             .topic-content {
