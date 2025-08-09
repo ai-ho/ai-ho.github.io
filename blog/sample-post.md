@@ -234,4 +234,4 @@ Hy vọng bài viết này đã cung cấp cho các bạn những kiến thức 
 **Tham khảo thêm:**
 - [🛠️ Lập trình nhúng căn bản](/fundamentals/)
 - [🚗 Phần mềm nhúng trên ô tô](/automotive/)
-- [🔌 Kit phát triển](/kits/)
+- [🔌 Board phát triển](/boards/)

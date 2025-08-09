@@ -35,6 +35,7 @@
             margin: 0;
             padding: 0;
             background-color: #ffffff;
+            padding-top: 120px;
         }
         
         .container {
@@ -62,6 +63,8 @@
             width: 280px;
             flex-shrink: 0;
             margin: 20px 0;
+            background: #ECF0F5;
+            box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
         }
         
         .sidebar-section {
@@ -103,7 +106,7 @@
         }
         
         .sidebar-section a {
-            color: #0969da;
+            color: #093FB4;
             text-decoration: underline;
             display: block;
             padding: 6px 0;
@@ -371,7 +374,7 @@
         
         /* Navigation */
         .navigation {
-            background: #ffffff;
+            background: #ecf0f5;
             border-bottom: none;
             padding: 8px 20px;
             margin: 0;
@@ -382,6 +385,10 @@
             justify-content: flex-start;
             width: 100%;
             box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1001;
         }
         
         .nav-menu-row {
@@ -397,6 +404,10 @@
             width: 100%;
             box-sizing: border-box;
             overflow-x: auto;
+            position: fixed;
+            top: 68px;
+            left: 0;
+            z-index: 1000;
         }
         
         .nav-brand {
@@ -523,6 +534,10 @@
             
             .navigation {
                 padding: 6px 20px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 1001;
             }
             
             .nav-menu-row {
@@ -531,7 +546,10 @@
                 justify-content: space-between;
                 gap: 8px;
                 padding: 6px 20px;
-                position: relative;
+                position: fixed;
+                top: 56px;
+                left: 0;
+                z-index: 1000;
                 height: 44px;
                 min-height: 44px;
                 max-height: 44px;
@@ -618,11 +636,19 @@
                 background-color: rgba(255, 255, 255, 0.2);
                 color: #ffffff !important;
             }
+            
+            body {
+                padding-top: 100px;
+            }
         }
         
         @media (max-width: 480px) {
             .navigation {
                 padding: 4px 15px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 1001;
             }
             
             .nav-menu-row {
@@ -630,6 +656,10 @@
                 height: 38px;
                 min-height: 38px;
                 max-height: 38px;
+                position: fixed;
+                top: 46px;
+                left: 0;
+                z-index: 1000;
             }
             
             .nav-name {
@@ -673,6 +703,10 @@
             
             .nav-menu-row .nav-links.show .dropdown-menu a .nav-icon {
                 filter: brightness(0) saturate(100%) invert(100%);
+            }
+            
+            body {
+                padding-top: 84px;
             }
         }
         
@@ -1016,16 +1050,16 @@
       <div class="nav-links" id="navLinks">
         <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
         <a href="/fundamentals/" class="nav-priority"><img src="/assets/icons/fundamentals.svg" alt="" class="nav-icon"> Fundamentals</a>
-        <a href="/automotive/" class="nav-priority"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
-        <a href="/kits/" class="nav-priority"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Kits</a>
+        <a href="/boards/" class="nav-priority"><img src="/assets/icons/boards.svg" alt="" class="nav-icon"> Boards</a>
+        <a href="/automotive/"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
         <a href="/blog/"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
         <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
         <a href="/aboutme/"><img src="/assets/icons/aboutme.svg" alt="" class="nav-icon"> About me</a>
         <div class="dropdown-menu" id="dropdownMenu">
           <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
           <a href="/fundamentals/"><img src="/assets/icons/fundamentals.svg" alt="" class="nav-icon"> Fundamentals</a>
+          <a href="/boards/"><img src="/assets/icons/boards.svg" alt="" class="nav-icon"> Boards</a>
           <a href="/automotive/"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
-          <a href="/kits/"><img src="/assets/icons/kits.svg" alt="" class="nav-icon"> Kits</a>
           <a href="/blog/"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
           <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
           <a href="/aboutme/"><img src="/assets/icons/aboutme.svg" alt="" class="nav-icon"> About me</a>
@@ -1051,7 +1085,7 @@
                     <li><a href="/fundamentals/">Programming Fundamentals <span class="post-count">(8)</span></a></li>
                     <li><a href="/automotive/">Automotive Software <span class="post-count">(5)</span></a></li>
                     <li><a href="/blog/">Personal Blog <span class="post-count">(12)</span></a></li>
-                    <li><a href="/kits/">Development Kits <span class="post-count">(3)</span></a></li>
+                    <li><a href="/boards/">Development Boards <span class="post-count">(3)</span></a></li>
                 </ul>
             </div>
             
@@ -1062,7 +1096,7 @@
                     <li><a href="/fundamentals/intro/">Giới thiệu lập trình nhúng</a></li>
                     <li><a href="/automotive/intro/">Phần mềm nhúng ô tô</a></li>
                     <li><a href="/blog/">Kinh nghiệm làm việc</a></li>
-                    <li><a href="/kits/">Kit phát triển STM32</a></li>
+                    <li><a href="/boards/">Board phát triển STM32</a></li>
                 </ul>
             </div>
             
@@ -1100,7 +1134,7 @@
                 <a href="/">Home</a>
                 <a href="/fundamentals/">Fundamentals</a>
                 <a href="/automotive/">Automotive</a>
-                <a href="/kits/">Kits</a>
+                <a href="/boards/">Boards</a>
                 <a href="/blog/">Blog</a>
                 <a href="https://github.com/ai-ho">Github</a>
                 <a href="/aboutme/">About me</a>

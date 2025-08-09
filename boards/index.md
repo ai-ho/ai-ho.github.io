@@ -1,13 +1,17 @@
-## Cửa Hàng Kit Phát Triển
+---
+layout: default
+title: "Board Phát Triển"
+description: "Các board phát triển và công cụ hỗ trợ lập trình nhúng"
+---
 
-Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phát triển dành cho lập trình nhúng! Dưới đây là một số sản phẩm phổ biến, phù hợp cho người mới bắt đầu cũng như các kỹ sư phát triển phần mềm nhúng.
+{% include_relative README.md %}
 
 ---
 
 ### 1. 🔵 STM32F103 Blue Pill Board
 
 <p align="center">
-  <img src="/kits/assets/stm32f103.png" alt="STM32F103 Blue Pill Board" />
+  <img src="/boards/assets/stm32f103.png" alt="STM32F103 Blue Pill Board" style="width: 100vw"/>
 </p>
 
 - **Mô tả:**  
@@ -25,7 +29,7 @@ Chào mừng bạn đến với trang giới thiệu và mua sắm các kit phá
 ### 2. 🟣 ST-Link V2 Mini Debugger
 
 <p align="center">
-  <img src="/kits/assets/stlink_mini_debugger.png" alt="ST-Link V2 Mini" />
+  <img src="/boards/assets/stlink_mini_debugger.png" alt="ST-Link V2 Mini" style="width: 100vw" />
 </p>
 
 - **Mô tả:**  

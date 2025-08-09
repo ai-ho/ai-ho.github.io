@@ -66,11 +66,11 @@ description: "Complete example showing how to use the topic-cards layout with mu
         </div>
     </a>
     
-    <!-- Beginner Level: STM32 Development Kit -->
-    <a href="/kits/stm32-discovery/" class="topic-card">
-        <div class="topic-image" style="background-image: url('/kits/assets/stm32f407-discovery.png');"></div>
+    <!-- Beginner Level: STM32 Development Board -->
+    <a href="/boards/stm32-discovery/" class="topic-card">
+        <div class="topic-image" style="background-image: url('/boards/assets/stm32f407-discovery.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">STM32F407 Discovery Kit Setup</h2>
+            <h2 class="topic-title">STM32F407 Discovery Board Setup</h2>
             <p class="topic-description">Hướng dẫn setup và sử dụng STM32F407 Discovery board. Từ cài đặt development environment đến các project examples và debugging techniques.</p>
             <div class="topic-meta">
                 <span class="topic-difficulty beginner">Beginner</span>
@@ -220,7 +220,7 @@ Use this template for each topic card:
 ├── autosar-intro/      (Advanced topic)
 └── can-bus/           (Intermediate topic)
 
-/kits/
+/boards/
 └── stm32-discovery/   (Beginner topic)
 ```
 

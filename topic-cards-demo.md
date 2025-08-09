@@ -48,11 +48,11 @@ permalink: /topic-cards-demo/
         </div>
     </a>
     
-    <!-- Example: Development Kits -->
-    <a href="/kits/" class="topic-card">
-        <div class="topic-image" style="background-image: url('/kits/assets/stm32f103.png');"></div>
+    <!-- Example: Development Boards -->
+    <a href="/boards/" class="topic-card">
+        <div class="topic-image" style="background-image: url('/boards/assets/stm32f103.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">Development Kits & Tools</h2>
+            <h2 class="topic-title">Development Boards & Tools</h2>
             <p class="topic-description">Explore popular development boards, debuggers, and tools for embedded programming. Hands-on tutorials with STM32 and debugging tools.</p>
             <div class="topic-meta">
                 <span class="topic-difficulty beginner">Beginner</span>
