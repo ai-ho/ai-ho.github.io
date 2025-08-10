@@ -9,7 +9,9 @@ description: "Fundamental programming knowledge and core concepts"
     <div class="topic-image" style="background-image: url('/fundamentals/assets/Embedded.png')"></div>
     <div class="topic-content">
       <h3 class="topic-title">Giới thiệu về Embedded C</h3>
+      <div class="topic-dates">10-03-24 | 10-08-25</div>
       <p class="topic-description">Tổng quan về Embedded C và ứng dụng thực tế trong các hệ thống nhúng, vi điều khiển và IoT.</p>
+      <a href="/fundamentals/intro/" class="topic-read-more" onclick="event.stopPropagation();">Đọc thêm →</a>
     </div>
   </div>
 
@@ -17,7 +19,9 @@ description: "Fundamental programming knowledge and core concepts"
     <div class="topic-image" style="background-image: url('/fundamentals/c-language/img/c-language.png')"></div>
     <div class="topic-content">
       <h3 class="topic-title">Ngôn ngữ lập trình C</h3>
+      <div class="topic-dates">08-08-25 | 10-08-25</div>
       <p class="topic-description">Lịch sử, đặc điểm, ưu nhược điểm và ứng dụng của ngôn ngữ C trong lập trình.</p>
+      <a href="/fundamentals/c-language/" class="topic-read-more" onclick="event.stopPropagation();">Đọc thêm →</a>
     </div>
   </div>
 
@@ -25,7 +29,9 @@ description: "Fundamental programming knowledge and core concepts"
     <div class="topic-image" style="background-image: url('/fundamentals/program-structure/img/prog_struct.png')"></div>
     <div class="topic-content">
       <h3 class="topic-title">Cấu trúc chương trình Embedded C</h3>
+      <div class="topic-dates">20-04-24 | 25-07-25</div>
       <p class="topic-description">Các thành phần cơ bản trong một chương trình Embedded C và cách tổ chức code hiệu quả.</p>
+      <a href="/fundamentals/program-structure/" class="topic-read-more" onclick="event.stopPropagation();">Đọc thêm →</a>
     </div>
   </div>
 
@@ -33,7 +39,9 @@ description: "Fundamental programming knowledge and core concepts"
     <div class="topic-image" style="background-image: url('/fundamentals/assets/Embedded.png')"></div>
     <div class="topic-content">
       <h3 class="topic-title">Danh sách bài viết</h3>
+      <div class="topic-dates">15-03-24 | 10-08-25</div>
       <p class="topic-description">Tổng hợp tất cả các bài viết về lập trình cơ bản và embedded C.</p>
+      <a href="/fundamentals/posts/" class="topic-read-more" onclick="event.stopPropagation();">Đọc thêm →</a>
     </div>
   </div>
 </div>

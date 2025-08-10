@@ -137,7 +137,7 @@
         /* Topic Title */
         .topic-title {
             font-size: 1.3em;
-            font-weight: 600;
+            font-weight: 400;
             color: #093FB4;
             margin: 0 0 10px 0;
             line-height: 1.3;
@@ -146,6 +146,14 @@
         
         .topic-card:hover .topic-title {
             color: #4299e1;
+        }
+        
+        /* Topic Dates */
+        .topic-dates {
+            font-size: 0.8em;
+            color: #666;
+            margin: 5px 0 10px 0;
+            font-style: italic;
         }
         
         /* Topic Description */
@@ -158,6 +166,22 @@
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
+        }
+        
+        /* Topic Read More Link */
+        .topic-read-more {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #093FB4;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+        
+        .topic-read-more:hover {
+            color: #4299e1;
+            text-decoration: underline;
         }
         
         /* Topic Meta Info */
