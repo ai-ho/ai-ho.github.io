@@ -101,17 +101,35 @@ void loop() {
 ---
 
 <div style="text-align: center; margin-top: 30px;">
-  <a href="#" style="
-    display: inline-block;
-    background-color: #093FB4;
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 16px;
-    transition: background-color 0.3s;
-  " onmouseover="this.style.backgroundColor='#0056b3'" onmouseout="this.style.backgroundColor='#093FB4'">
-    🛒 Đặt mua ngay
-  </a>
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <a href="#" style="
+      display: inline-block;
+      background-color: #EE4D2D;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background-color 0.3s;
+      min-width: 150px;
+    " onmouseover="this.style.backgroundColor='#d73211'" onmouseout="this.style.backgroundColor='#EE4D2D'">
+      🛒 Mua trên Shopee
+    </a>
+    
+    <a href="#" style="
+      display: inline-block;
+      background-color: #000000;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background-color 0.3s;
+      min-width: 150px;
+    " onmouseover="this.style.backgroundColor='#333333'" onmouseout="this.style.backgroundColor='#000000'">
+      🎵 Mua trên TikTok
+    </a>
+  </div>
 </div>
