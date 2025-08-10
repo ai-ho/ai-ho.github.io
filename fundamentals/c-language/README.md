@@ -10,53 +10,38 @@ Ngôn ngữ C phiên bản hoàn thiện chính thức được ra đời vào n
 
 ### Phát triển và chuẩn hóa
 
-**1978**: Xuất bản cuốn sách "The C Programming Language" của Brian Kernighan và Dennis Ritchie (K&R C)
-
-**1983**: American National Standards Institute (ANSI) bắt đầu quá trình chuẩn hóa ngôn ngữ C
-
-**1989**: Ra đời chuẩn ANSI C (C89/C90)
-
-**1999**: Chuẩn C99 với nhiều tính năng mới
-
-**2011**: Chuẩn C11 với cải tiến về đa luồng và bảo mật
+- **1978**: Xuất bản cuốn sách "The C Programming Language" của Brian Kernighan và Dennis Ritchie (K&R C)
+- **1983**: American National Standards Institute (ANSI) bắt đầu quá trình chuẩn hóa ngôn ngữ C
+- **1989**: Ra đời chuẩn ANSI C (C89/C90)
+- **1999**: Chuẩn C99 với nhiều tính năng mới
+- **2011**: Chuẩn C11 với cải tiến về đa luồng và bảo mật
 
 ### Đặc điểm nổi bật
-
-**Tính di động cao**: Code C có thể được biên dịch và chạy trên nhiều nền tảng khác nhau
-
-**Hiệu suất tốt**: Ngôn ngữ C được thiết kế rất gần với phần cứng, mã lệnh được tối ưu và tốc độ thực thi nhanh
-
-**Tối ưu hóa nguồn tài nguyên**: Ngôn ngữ C có khả năng sự dụng nguồn tài nguyên hạn chế một cách tối ưu, đáp ứng nhu cầu xây dựng một hệ thống vừa, nhỏ và tiết kiệm chi phí
-
-**Linh hoạt**: Cho phép lập trình viết code ở cả high level thân thiện với con người và low level thân thiện với máy tính
-
-**Cú pháp đơn giản**: Vì là ngôn ngữ lập trình cấp cao và nguồn tài liệu chuẩn hóa dồi dào nên C tương đối dễ học và sử dụng
+- **Tính di động cao**: Code C có thể được biên dịch và chạy trên nhiều nền tảng khác nhau
+- **Hiệu suất tốt**: Ngôn ngữ C được thiết kế rất gần với phần cứng, mã lệnh được tối ưu và tốc độ thực thi nhanh
+- **Tối ưu hóa nguồn tài nguyên**: Ngôn ngữ C có khả năng sự dụng nguồn tài nguyên hạn chế một cách tối ưu, đáp ứng nhu cầu xây dựng một hệ thống vừa, nhỏ và tiết kiệm chi phí
+- **Linh hoạt**: Cho phép lập trình viết code ở cả high level thân thiện với con người và low level thân thiện với máy tính
+- **Cú pháp đơn giản**: Vì là ngôn ngữ lập trình cấp cao và nguồn tài liệu chuẩn hóa dồi dào nên C tương đối dễ học và sử dụng
 
 ### Nhược điểm
 
-**Quản lý bộ nhớ thủ công**: Dễ memory leak, buffer overflow, stack overflow. Việc quản lý hoàn toàn do người dùng tự giải quyết
+- **Quản lý bộ nhớ thủ công**: Dễ memory leak, buffer overflow, stack overflow. Việc quản lý hoàn toàn do người dùng tự giải quyết
+- **Thiếu OOP**: Ngôn ngữ lập trình hướng cấu trúc nên không có sẵn tính đóng gói, kế thừa, đa hình,…
+- **Thư viện hạn chế**: Thư viện chuẩn của C rất hạn chế, người dùng thường phải tự xây dựng các thư viện riêng cho ứng dụng của mình
 
-**Thiếu OOP**: Ngôn ngữ lập trình hướng cấu trúc nên không có sẵn tính đóng gói, kế thừa, đa hình,…
+- **An toàn thấp**: Tính an toàn (safety) khi sử dụng là rất thấp và người dùng phải tự xây dựng cơ chế kiểm tra để đảm bảo tính an toàn của chương trình.
 
-**Thư viện hạn chế**: Thư viện chuẩn của C rất hạn chế, người dùng thường phải tự xây dựng các thư viện riêng cho ứng dụng của mình
+- **Khó debug**: Runtime errors rất khó phát hiện và không có cơ chế report lỗi cho người dùng
 
-**An toàn thấp**: Tính an toàn (safety) khi sử dụng là rất thấp và người dùng phải tự xây dựng cơ chế kiểm tra để đảm bảo tính an toàn của chương trình.
-
-**Khó debug**: Runtime errors rất khó phát hiện và không có cơ chế report lỗi cho người dùng
-
-**Thiếu tính năng hiện đại**: Không có exception handling, phân loại theo namespace
+- **Thiếu tính năng hiện đại**: Không có exception handling, phân loại theo namespace
 
 ### Ứng dụng thực tế
 
-**System programming**: Hệ điều hành, drivers
-
-**Embedded systems**: Vi điều khiển, IoT
-
-**Game development**: Game cần có tốc độ xử lý nhanh
-
-**Database systems**: MySQL, PostgreSQL
-
-**Compilers**: Nhiều compiler được viết bằng C
+- **System programming**: Hệ điều hành, drivers
+- **Embedded systems**: Vi điều khiển, IoT
+- **Game development**: Game cần có tốc độ xử lý nhanh
+- **Database systems**: MySQL, PostgreSQL
+- **Compilers**: Nhiều compiler được viết bằng C
 
 ### Kết luận
 
