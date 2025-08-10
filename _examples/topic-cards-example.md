@@ -12,23 +12,21 @@ description: "Complete example showing how to use the topic-cards layout with mu
 <div class="topic-cards-container">
     
     <!-- Beginner Level: IoT Monitoring System -->
-    <a href="/fundamentals/iot-monitoring/" class="topic-card">
+    <div class="topic-card" onclick="window.location.href='/fundamentals/iot-monitoring/'">
         <div class="topic-image" style="background-image: url('/fundamentals/assets/iot-monitoring-system-main.png');"></div>
         <div class="topic-content">
             <h2 class="topic-title">IoT Monitoring System với STM32</h2>
+            <div class="topic-dates">15-06-24 | 10-08-25</div>
             <p class="topic-description">Xây dựng hệ thống giám sát IoT hoàn chỉnh sử dụng STM32, ESP8266, và cloud platform. Học cách kết nối sensors, truyền dữ liệu wireless, và hiển thị realtime dashboard.</p>
-            <div class="topic-meta">
-                <span class="topic-difficulty intermediate">Intermediate</span>
-                <span class="topic-time">⏱️ 4-6 hours</span>
-            </div>
             <div class="topic-tags">
                 <span class="topic-tag">STM32F4</span>
                 <span class="topic-tag">ESP8266</span>
                 <span class="topic-tag">MQTT</span>
                 <span class="topic-tag">IoT</span>
             </div>
+            <a href="/fundamentals/iot-monitoring/" class="topic-read-more" onclick="event.stopPropagation();">Đọc thêm >></a>
         </div>
-    </a>
+    </div>
     
     <!-- Beginner Level: Embedded C Programming Structure -->
     <a href="/fundamentals/prog-structure/" class="topic-card">
