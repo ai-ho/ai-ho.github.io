@@ -28,11 +28,8 @@ Ngôn ngữ C phiên bản hoàn thiện chính thức được ra đời vào n
 - **Quản lý bộ nhớ thủ công**: Dễ memory leak, buffer overflow, stack overflow. Việc quản lý hoàn toàn do người dùng tự giải quyết
 - **Thiếu OOP**: Ngôn ngữ lập trình hướng cấu trúc nên không có sẵn tính đóng gói, kế thừa, đa hình,…
 - **Thư viện hạn chế**: Thư viện chuẩn của C rất hạn chế, người dùng thường phải tự xây dựng các thư viện riêng cho ứng dụng của mình
-
 - **An toàn thấp**: Tính an toàn (safety) khi sử dụng là rất thấp và người dùng phải tự xây dựng cơ chế kiểm tra để đảm bảo tính an toàn của chương trình.
-
 - **Khó debug**: Runtime errors rất khó phát hiện và không có cơ chế report lỗi cho người dùng
-
 - **Thiếu tính năng hiện đại**: Không có exception handling, phân loại theo namespace
 
 ### Ứng dụng thực tế
