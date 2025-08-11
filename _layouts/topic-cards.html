@@ -313,35 +313,29 @@
             transition: all 0.2s ease;
             font-size: 0.95em;
             position: relative;
-            padding-left: 24px;
+            padding-left: 16px;
         }
         
         .sidebar-section a::before {
-            content: '';
+            content: '•';
             position: absolute;
             left: 0;
             top: 50%;
             transform: translateY(-50%);
-            width: 16px;
-            height: 16px;
-            background-image: url('/assets/icons/arrow-list.svg');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-            filter: brightness(0) saturate(100%) invert(70%);
-            transition: filter 0.2s ease;
+            color: #093FB4;
+            font-weight: bold;
+            font-size: 1.2em;
         }
         
         .sidebar-section a:hover {
             color: #072d85;
             background-color: #f7fafc;
-            padding-left: 32px;
             border-bottom: 1px solid #e2e8f0;
             text-decoration: underline;
         }
         
         .sidebar-section a:hover::before {
-            filter: brightness(0) saturate(100%) invert(50%);
+            color: #072d85;
         }
         
         /* Post count styling */
