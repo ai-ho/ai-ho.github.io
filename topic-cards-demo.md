@@ -13,10 +13,10 @@ permalink: /topic-cards-demo/
 <div class="topic-cards-container">
     
     <!-- Example: Embedded Programming -->
-    <div class="topic-card" onclick="window.location.href='/fundamentals/intro/'">
+    <div class="topic-card">
         <div class="topic-image" style="background-image: url('/assets/Embedded.jpg');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">Introduction to Embedded Programming</h2>
+            <h2 class="topic-title"><a href="/fundamentals/intro/">Introduction to Embedded Programming</a></h2>
             <div class="topic-dates">15-03-24 | 10-08-25</div>
             <p class="topic-description">Learn the fundamentals of embedded systems programming with C language. Perfect starting point for beginners who want to understand microcontroller programming.</p>
             <div class="topic-tags">
@@ -29,10 +29,10 @@ permalink: /topic-cards-demo/
     </div>
     
     <!-- Example: Automotive Software -->
-    <div class="topic-card" onclick="window.location.href='/automotive/intro/'">
+    <div class="topic-card">
         <div class="topic-image" style="background-image: url('/automotive/assets/automotive.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">Automotive Software Development</h2>
+            <h2 class="topic-title"><a href="/automotive/intro/">Automotive Software Development</a></h2>
             <div class="topic-dates">10-05-24 | 10-08-25</div>
             <p class="topic-description">Advanced automotive embedded systems programming including AUTOSAR, CAN communication, and safety-critical software development standards.</p>
             <div class="topic-tags">
@@ -45,10 +45,10 @@ permalink: /topic-cards-demo/
     </div>
     
     <!-- Example: Development Boards -->
-    <div class="topic-card" onclick="window.location.href='/boards/'">
+    <div class="topic-card">
         <div class="topic-image" style="background-image: url('/boards/assets/stm32f103.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">Development Boards & Tools</h2>
+            <h2 class="topic-title"><a href="/boards/">Development Boards & Tools</a></h2>
             <div class="topic-dates">15-07-24 | 10-08-25</div>
             <p class="topic-description">Explore popular development boards, debuggers, and tools for embedded programming. Hands-on tutorials with STM32 and debugging tools.</p>
             <div class="topic-tags">

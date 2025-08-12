@@ -12,10 +12,10 @@ description: "Complete example showing how to use the topic-cards layout with mu
 <div class="topic-cards-container">
     
     <!-- IoT Monitoring System -->
-    <div class="topic-card" onclick="window.location.href='/fundamentals/iot-monitoring/'">
+    <div class="topic-card">
         <div class="topic-image" style="background-image: url('/fundamentals/assets/iot-monitoring-system-main.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">IoT Monitoring System với STM32</h2>
+            <h2 class="topic-title"><a href="/fundamentals/iot-monitoring/">IoT Monitoring System với STM32</a></h2>
             <div class="topic-dates">15-06-24 | 10-08-25</div>
             <p class="topic-description">Xây dựng hệ thống giám sát IoT hoàn chỉnh sử dụng STM32, ESP8266, và cloud platform. Học cách kết nối sensors, truyền dữ liệu wireless, và hiển thị realtime dashboard.</p>
             <div class="topic-tags">
@@ -29,10 +29,10 @@ description: "Complete example showing how to use the topic-cards layout with mu
     </div>
     
     <!-- Embedded C Programming Structure -->
-    <div class="topic-card" onclick="window.location.href='/fundamentals/prog-structure/'">
+    <div class="topic-card">
         <div class="topic-image" style="background-image: url('/fundamentals/assets/embedded-programming-structure.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">Cấu trúc chương trình Embedded C</h2>
+            <h2 class="topic-title"><a href="/fundamentals/prog-structure/">Cấu trúc chương trình Embedded C</a></h2>
             <div class="topic-dates">20-04-24 | 10-08-25</div>
             <p class="topic-description">Hướng dẫn chi tiết về cách tổ chức code trong embedded systems. Từ project structure, header files, đến memory management và optimization techniques.</p>
             <div class="topic-tags">
@@ -45,10 +45,10 @@ description: "Complete example showing how to use the topic-cards layout with mu
     </div>
     
     <!-- AUTOSAR Introduction -->
-    <div class="topic-card" onclick="window.location.href='/automotive/autosar-intro/'">
+    <div class="topic-card">
         <div class="topic-image" style="background-image: url('/automotive/assets/autosar-architecture.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">AUTOSAR Fundamental Architecture</h2>
+            <h2 class="topic-title"><a href="/automotive/autosar-intro/">AUTOSAR Fundamental Architecture</a></h2>
             <div class="topic-dates">01-07-24 | 10-08-25</div>
             <p class="topic-description">Comprehensive introduction to AUTOSAR standard, layer architecture, and basic software components. Essential for automotive software development.</p>
             <div class="topic-tags">
@@ -61,10 +61,10 @@ description: "Complete example showing how to use the topic-cards layout with mu
     </div>
     
     <!-- STM32 Discovery Board -->
-    <div class="topic-card" onclick="window.location.href='/boards/stm32-discovery/'">
+    <div class="topic-card">
         <div class="topic-image" style="background-image: url('/boards/assets/stm32-discovery.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">STM32 Discovery Board Review</h2>
+            <h2 class="topic-title"><a href="/boards/stm32-discovery/">STM32 Discovery Board Review</a></h2>
             <div class="topic-dates">10-08-24 | 10-08-25</div>
             <p class="topic-description">In-depth review of STM32 Discovery development board, setup guide, and hands-on examples for embedded programming.</p>
             <div class="topic-tags">
@@ -77,10 +77,10 @@ description: "Complete example showing how to use the topic-cards layout with mu
     </div>
     
     <!-- CAN Bus Communication -->
-    <div class="topic-card" onclick="window.location.href='/automotive/can-bus/'">
+    <div class="topic-card">
         <div class="topic-image" style="background-image: url('/automotive/assets/can-bus-topology.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">CAN Bus Communication Protocol</h2>
+            <h2 class="topic-title"><a href="/automotive/can-bus/">CAN Bus Communication Protocol</a></h2>
             <div class="topic-dates">25-08-24 | 10-08-25</div>
             <p class="topic-description">Complete guide to Controller Area Network (CAN) protocol implementation in automotive systems, including practical examples and troubleshooting.</p>
             <div class="topic-tags">
@@ -93,10 +93,10 @@ description: "Complete example showing how to use the topic-cards layout with mu
     </div>
     
     <!-- Real-Time Operating Systems -->
-    <div class="topic-card" onclick="window.location.href='/fundamentals/rtos/'">
+    <div class="topic-card">
         <div class="topic-image" style="background-image: url('/fundamentals/assets/rtos-concepts.png');"></div>
         <div class="topic-content">
-            <h2 class="topic-title">Real-Time Operating Systems (RTOS)</h2>
+            <h2 class="topic-title"><a href="/fundamentals/rtos/">Real-Time Operating Systems (RTOS)</a></h2>
             <div class="topic-dates">05-09-24 | 10-08-25</div>
             <p class="topic-description">Introduction to RTOS concepts, task scheduling, inter-task communication, and practical implementation with FreeRTOS on embedded systems.</p>
             <div class="topic-tags">
