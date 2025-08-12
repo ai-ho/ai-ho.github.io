@@ -673,25 +673,29 @@
             .nav-menu-row .nav-links.show .dropdown-menu {
                 position: absolute;
                 top: 100%;
+                left: 0;
                 right: 0;
-                width: 150px;
-                max-width: calc(100vw - 40px);
+                width: 100vw;
+                min-width: 100vw;
+                max-width: 100vw;
                 background: #cc0000;
                 border: none;
-                border-radius: 8px;
+                border-top: none !important;
+                border-radius: 0 0 8px 8px;
                 box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-                padding: 4px 8px;
-                margin: 0;
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin: 0 auto;
                 z-index: 1002;
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 gap: 0;
-            }
-            
-            .nav-menu-row .nav-links.show .dropdown-menu a {
-                display: flex !important;
-                padding: 6px 8px;
-                width: 100%;
+                justify-content: center;
+                overflow-x: auto;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
                 text-align: left;
                 border-radius: 3px;
                 margin: 0;
@@ -910,23 +914,23 @@
       </div>
     </div>
     <div class="nav-menu-row">
-      <div class="nav-links" id="navLinks">
-        <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
-        <a href="/fundamentals/" class="nav-priority"><img src="/assets/icons/fundamentals.svg" alt="" class="nav-icon"> Fundamentals</a>
-        <a href="/boards/" class="nav-priority"><img src="/assets/icons/boards.svg" alt="" class="nav-icon"> Boards</a>
-        <a href="/automotive/"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
-        <a href="/blog/"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
-        <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
-        <a href="/aboutme/"><img src="/assets/icons/aboutme.svg" alt="" class="nav-icon"> About me</a>
-        <div class="dropdown-menu" id="dropdownMenu">
-          <a href="/"><img src="/assets/icons/home.svg" alt="" class="nav-icon"> Home</a>
-          <a href="/fundamentals/"><img src="/assets/icons/fundamentals.svg" alt="" class="nav-icon"> Fundamentals</a>
-          <a href="/boards/"><img src="/assets/icons/boards.svg" alt="" class="nav-icon"> Boards</a>
-          <a href="/automotive/"><img src="/assets/icons/automotive.svg" alt="" class="nav-icon"> Automotive</a>
-          <a href="/blog/"><img src="/assets/icons/blog.svg" alt="" class="nav-icon"> Blog</a>
-          <a href="https://github.com/ai-ho"><img src="/assets/icons/github.svg" alt="" class="nav-icon"> Github</a>
-          <a href="/aboutme/"><img src="/assets/icons/aboutme.svg" alt="" class="nav-icon"> About me</a>
-        </div>
+            <div class="nav-links" id="navLinks">
+        <a href="/">Home</a>
+        <a href="/fundamentals/">Fundamentals <span class="nav-down-arrow">&#9662;</span></a>
+        <a href="/boards/">Boards <span class="nav-down-arrow">&#9662;</span></a>
+        <a href="/automotive/">Automotive <span class="nav-down-arrow">&#9662;</span></a>
+        <a href="/blog/" class="nav-icon-only" title="Blog"><img src="/assets/icons/blog.svg" alt="Blog" class="nav-icon"></a>
+        <a href="https://github.com/ai-ho" class="nav-icon-only" title="Github"><img src="/assets/icons/github.svg" alt="Github" class="nav-icon"></a>
+        <a href="/aboutme/" class="nav-icon-only" title="About me"><img src="/assets/icons/aboutme.svg" alt="About me" class="nav-icon"></a>
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <a href="/">Home</a>
+                    <a href="/fundamentals/">Fundamentals <span class="nav-down-arrow">&#9662;</span></a>
+                    <a href="/boards/">Boards <span class="nav-down-arrow">&#9662;</span></a>
+                    <a href="/automotive/">Automotive <span class="nav-down-arrow">&#9662;</span></a>
+                    <a href="/blog/" class="nav-icon-only" title="Blog"><img src="/assets/icons/blog.svg" alt="Blog" class="nav-icon"></a>
+                    <a href="https://github.com/ai-ho" class="nav-icon-only" title="Github"><img src="/assets/icons/github.svg" alt="Github" class="nav-icon"></a>
+                    <a href="/aboutme/" class="nav-icon-only" title="About me"><img src="/assets/icons/aboutme.svg" alt="About me" class="nav-icon"></a>
+                </div>
       </div>
       <button class="mobile-menu-button" onclick="toggleMobileMenu()" aria-label="Toggle menu">
         <span>☰</span>

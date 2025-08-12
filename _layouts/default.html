@@ -588,29 +588,38 @@
                 position: absolute;
                 top: 100%;
                 left: 0;
+                left: 0;
+                right: 0;
                 width: 100vw;
                 min-width: 100vw;
                 max-width: 100vw;
                 background: #cc0000;
                 border: none;
+                border-top: none !important;
                 border-radius: 0 0 8px 8px;
                 box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-                padding: 4px 8px;
-                margin: 0;
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin: 0 auto;
                 z-index: 1002;
                 display: flex;
                 flex-direction: row;
                 gap: 0;
                 justify-content: center;
+                overflow-x: auto;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
             }
             
             .nav-menu-row .nav-links.show .dropdown-menu a {
                 display: flex !important;
                 padding: 6px 8px;
-                width: 100%;
+                min-width: 120px;
                 text-align: left;
                 border-radius: 3px;
-                margin: 0;
+                margin: 0 2px;
                 font-size: 0.95em;
                 justify-content: flex-start;
                 box-sizing: border-box;
@@ -678,6 +687,7 @@
                 padding: 3px 6px;
                 background: #cc0000;
                 border: none;
+                border-top: none !important;
                 border-radius: 0 0 8px 8px;
                 box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
                 display: flex;
@@ -1050,7 +1060,7 @@
     </div>
     <div class="nav-menu-row">
       <div class="nav-links" id="navLinks">
-    <a href="/">Home <span class="nav-down-arrow">&#9662;</span></a>
+    <a href="/">Home</a>
     <a href="/fundamentals/">Fundamentals <span class="nav-down-arrow">&#9662;</span></a>
     <a href="/boards/">Boards <span class="nav-down-arrow">&#9662;</span></a>
     <a href="/automotive/">Automotive <span class="nav-down-arrow">&#9662;</span></a>
@@ -1058,7 +1068,7 @@
     <a href="https://github.com/ai-ho" class="nav-icon-only" title="Github"><img src="/assets/icons/github.svg" alt="Github" class="nav-icon"></a>
     <a href="/aboutme/" class="nav-icon-only" title="About me"><img src="/assets/icons/aboutme.svg" alt="About me" class="nav-icon"></a>
         <div class="dropdown-menu" id="dropdownMenu">
-          <a href="/">Home <span class="nav-down-arrow">&#9662;</span></a>
+          <a href="/">Home</a>
           <a href="/fundamentals/">Fundamentals <span class="nav-down-arrow">&#9662;</span></a>
           <a href="/boards/">Boards <span class="nav-down-arrow">&#9662;</span></a>
           <a href="/automotive/">Automotive <span class="nav-down-arrow">&#9662;</span></a>
