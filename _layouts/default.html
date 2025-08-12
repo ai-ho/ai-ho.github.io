@@ -1186,21 +1186,38 @@
                 <a href="/">Home</a>
                 <a href="/fundamentals/">Fundamentals</a>
                 <a href="/automotive/">Automotive</a>
-                  <a href="/">Home</a>
-                  <a href="/fundamentals/">Fundamentals <span class="nav-down-arrow">&#9662;</span></a>
-                  <a href="/boards/">Boards <span class="nav-down-arrow">&#9662;</span></a>
-                  <a href="/automotive/">Automotive <span class="nav-down-arrow">&#9662;</span></a>
-                  <a href="/blog/" class="nav-icon-only" title="Blog"><img src="/assets/icons/blog.svg" alt="Blog" class="nav-icon"></a>
-                  <a href="https://github.com/ai-ho" class="nav-icon-only" title="Github"><img src="/assets/icons/github.svg" alt="Github" class="nav-icon"></a>
-                  <a href="/aboutme/" class="nav-icon-only" title="About me"><img src="/assets/icons/aboutme.svg" alt="About me" class="nav-icon"></a>
+                <a href="/boards/">Boards</a>
+                <a href="/blog/">Blog</a>
+                <a href="/aboutme/">About me</a>
+            </div>
+            <div class="footer-info">
+                <img src="/assets/HoThienAi.png" alt="Hồ Thiện Ái" class="footer-avatar">
+                <span>© 2025 Hồ Thiện Ái</span>
+                <span>•</span>
+                <span>Kỹ sư phần mềm nhúng ô tô</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Mobile menu toggle script -->
+    <script>
+        function toggleMobileMenu() {
             const navLinks = document.getElementById('navLinks');
-            if (window.innerWidth > 768 && navLinks.classList.contains('show')) {
+            if (navLinks) {
+                navLinks.classList.toggle('show');
+            }
+        }
+        document.addEventListener('click', function(event) {
+            const navMenuRow = document.querySelector('.nav-menu-row');
+            const navLinks = document.getElementById('navLinks');
+            if (navMenuRow && !navMenuRow.contains(event.target) && navLinks && navLinks.classList.contains('show')) {
                 navLinks.classList.remove('show');
             }
         });
-        
-        document.addEventListener('DOMContentLoaded', function() {
-            // Mobile menu and other initialization code can go here if needed
+        window.addEventListener('resize', function() {
+            const navLinks = document.getElementById('navLinks');
+            if (window.innerWidth > 768 && navLinks && navLinks.classList.contains('show')) {
+                navLinks.classList.remove('show');
+            }
         });
     </script>
 </body>
