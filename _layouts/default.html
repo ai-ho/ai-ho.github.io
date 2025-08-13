@@ -27,6 +27,19 @@
     
     <!-- Custom CSS -->
     <style>
+        /* Down arrow for nav-menu-row */
+        .nav-down-arrow {
+            display: inline-block;
+            font-size: 0.85em;
+            margin-left: 6px;
+            vertical-align: middle;
+            color: #fff;
+            transition: color 0.2s;
+        }
+        .nav-menu-row .nav-links a:hover .nav-down-arrow,
+        .nav-menu-row .nav-links a:focus .nav-down-arrow {
+            color: #ffe082;
+        }
         /* Base Typography */
         body {
             font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -1065,57 +1078,23 @@
       </div>
     </div>
     <div class="nav-menu-row">
-      <div class="nav-links" id="navLinks">
-    <a href="/">Home</a>
-    <a href="/fundamentals/">Fundamentals <span class="nav-down-arrow">&#9662;</span></a>
-    <a href="/boards/">Boards <span class="nav-down-arrow">&#9662;</span></a>
-    <a href="/automotive/">Automotive <span class="nav-down-arrow">&#9662;</span></a>
-    <a href="/blog/" class="nav-icon-only" title="Blog"><img src="/assets/icons/blog.svg" alt="Blog" class="nav-icon"></a>
-    <a href="https://github.com/ai-ho" class="nav-icon-only" title="Github"><img src="/assets/icons/github.svg" alt="Github" class="nav-icon"></a>
-    <a href="/aboutme/" class="nav-icon-only" title="About me"><img src="/assets/icons/aboutme.svg" alt="About me" class="nav-icon"></a>
-        <div class="dropdown-menu" id="dropdownMenu">
-          <a href="/">Home</a>
-          <a href="/fundamentals/">Fundamentals <span class="nav-down-arrow">&#9662;</span></a>
-          <a href="/boards/">Boards <span class="nav-down-arrow">&#9662;</span></a>
-          <a href="/automotive/">Automotive <span class="nav-down-arrow">&#9662;</span></a>
-          <a href="/blog/" class="nav-icon-only" title="Blog"><img src="/assets/icons/blog.svg" alt="Blog" class="nav-icon"></a>
-          <a href="https://github.com/ai-ho" class="nav-icon-only" title="Github"><img src="/assets/icons/github.svg" alt="Github" class="nav-icon"></a>
-          <a href="/aboutme/" class="nav-icon-only" title="About me"><img src="/assets/icons/aboutme.svg" alt="About me" class="nav-icon"></a>
-        /* Down arrow for nav-menu-row */
-        .nav-down-arrow {
-            display: inline-block;
-            font-size: 0.85em;
-            margin-left: 6px;
-            vertical-align: middle;
-            color: #fff;
-            transition: color 0.2s;
-        }
-        .nav-menu-row .nav-links a:hover .nav-down-arrow,
-        .nav-menu-row .nav-links a:focus .nav-down-arrow {
-            color: #ffe082;
-        }
-          <a href="/blog/" class="nav-icon-only" title="Blog"><img src="/assets/icons/blog.svg" alt="Blog" class="nav-icon"></a>
-          <a href="https://github.com/ai-ho" class="nav-icon-only" title="Github"><img src="/assets/icons/github.svg" alt="Github" class="nav-icon"></a>
-          <a href="/aboutme/" class="nav-icon-only" title="About me"><img src="/assets/icons/aboutme.svg" alt="About me" class="nav-icon"></a>
-        /* Hide text for nav-icon-only links, show only icon */
-        .nav-icon-only {
-            padding: 4px 8px;
-            border-radius: 6px;
-            display: inline-flex !important;
-            align-items: center;
-            justify-content: center;
-            font-size: 0;
-            background: none;
-        }
-        .nav-icon-only .nav-icon {
-            margin-right: 0 !important;
-        }
-        .nav-icon-only:hover {
-            background-color: rgba(255,255,255,0.2);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-        }
-        /* For accessibility, keep alt and title on icon */
-        </div>
+            <div class="nav-links" id="navLinks">
+        <a href="/">Home</a>
+        <a href="/fundamentals/">Fundamentals <span class="nav-down-arrow">&#9662;</span></a>
+        <a href="/boards/">Boards <span class="nav-down-arrow">&#9662;</span></a>
+        <a href="/automotive/">Automotive <span class="nav-down-arrow">&#9662;</span></a>
+        <a href="/blog/" class="nav-icon-only" title="Blog"><img src="/assets/icons/blog.svg" alt="Blog" class="nav-icon"></a>
+        <a href="https://github.com/ai-ho" class="nav-icon-only" title="Github"><img src="/assets/icons/github.svg" alt="Github" class="nav-icon"></a>
+        <a href="/aboutme/" class="nav-icon-only" title="About me"><img src="/assets/icons/aboutme.svg" alt="About me" class="nav-icon"></a>
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <a href="/">Home</a>
+                    <a href="/fundamentals/">Fundamentals <span class="nav-down-arrow">&#9662;</span></a>
+                    <a href="/boards/">Boards <span class="nav-down-arrow">&#9662;</span></a>
+                    <a href="/automotive/">Automotive <span class="nav-down-arrow">&#9662;</span></a>
+                    <a href="/blog/" class="nav-icon-only" title="Blog"><img src="/assets/icons/blog.svg" alt="Blog" class="nav-icon"></a>
+                    <a href="https://github.com/ai-ho" class="nav-icon-only" title="Github"><img src="/assets/icons/github.svg" alt="Github" class="nav-icon"></a>
+                    <a href="/aboutme/" class="nav-icon-only" title="About me"><img src="/assets/icons/aboutme.svg" alt="About me" class="nav-icon"></a>
+                </div>
       </div>
       <button class="mobile-menu-button" onclick="toggleMobileMenu()" aria-label="Toggle menu">
         <span>☰</span>
