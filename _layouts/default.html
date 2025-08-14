@@ -27,6 +27,80 @@
     
     <!-- Custom CSS -->
     <style>
+        /* Navigation links for content page navigation */
+        .nav-bottom-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: 40px;
+            width: 100%;
+        }
+        .nav-bottom-prev {
+            text-align: left;
+            font-weight: bold;
+            color: #093FB4;
+            text-decoration: none;
+            position: relative;
+            padding-left: 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .nav-bottom-prev .nav-bottom-title {
+            font-size: 0.95em;
+            font-weight: normal;
+            color: #2c3e50;
+            margin-top: 2px;
+            margin-left: 0;
+            margin-bottom: 0;
+            text-align: left;
+        }
+        .nav-bottom-prev::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            background-image: url('/assets/icons/arrow-left.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .nav-bottom-next {
+            text-align: right;
+            font-weight: bold;
+            color: #093FB4;
+            text-decoration: none;
+            position: relative;
+            padding-left: 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .nav-bottom-next .nav-bottom-title {
+            font-size: 0.95em;
+            font-weight: normal;
+            color: #2c3e50;
+            margin-top: 2px;
+            margin-right: 0;
+            margin-bottom: 0;
+            text-align: right;
+        }
+        .nav-bottom-next::after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            background-image: url('/assets/icons/arrow-right.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
         /* Down arrow for nav-menu-row */
         .nav-down-arrow {
             display: inline-block;
@@ -365,7 +439,7 @@
         
         /* Navigation */
         .navigation {
-            background: #ecf0f5;
+            background: #093FB4;
             border-bottom: none;
             padding: 8px 20px;
             margin: 0;
