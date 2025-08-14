@@ -5,21 +5,7 @@ description: "Fundamental programming knowledge and core concepts"
 ---
 
 <div class="topic-cards-container">
-  <div class="topic-card">
-    <div class="topic-image" style="background-image: url('/fundamentals/assets/Embedded.png')"></div>
-    <div class="topic-content">
-      <h3 class="topic-title"><a href="/fundamentals/intro/">Giới thiệu về Embedded C</a></h3>
-      <div class="topic-dates">10-03-24 | 10-08-25</div>
-      <p class="topic-description">Tổng quan về Embedded C và ứng dụng thực tế trong các hệ thống nhúng, vi điều khiển và IoT.</p>
-      <div class="topic-tags">
-        <span class="topic-tag">Embedded C</span>
-        <span class="topic-tag">Microcontroller</span>
-        <span class="topic-tag">IoT</span>
-      </div>
-      <a href="/fundamentals/intro/" class="topic-read-more" onclick="event.stopPropagation();">Đọc thêm >></a>
-    </div>
-  </div>
-
+  
   <div class="topic-card">
     <div class="topic-image" style="background-image: url('/fundamentals/c-language/img/c-language.png')"></div>
     <div class="topic-content">
@@ -32,6 +18,21 @@ description: "Fundamental programming knowledge and core concepts"
         <span class="topic-tag">History</span>
       </div>
       <a href="/fundamentals/c-language/" class="topic-read-more" onclick="event.stopPropagation();">Đọc thêm >></a>
+    </div>
+  </div>
+
+  <div class="topic-card">
+    <div class="topic-image" style="background-image: url('/fundamentals/assets/Embedded.png')"></div>
+    <div class="topic-content">
+      <h3 class="topic-title"><a href="/fundamentals/intro/">Embedded C: Ngôn ngữ C dành cho hệ thống nhúng</a></h3>
+      <div class="topic-dates">10-03-24 | 10-08-25</div>
+      <p class="topic-description">Embedded C là một phân nhánh của ngôn ngữ lập trình C, nhưng nó có một vài điểm khác biệt. Nó được thiết dành riêng cho các hệ thống như vi điều khiển, ...</p>
+      <div class="topic-tags">
+        <span class="topic-tag">Embedded C</span>
+        <span class="topic-tag">Microcontroller</span>
+        <span class="topic-tag">IoT</span>
+      </div>
+      <a href="/fundamentals/intro/" class="topic-read-more" onclick="event.stopPropagation();">Đọc thêm >></a>
     </div>
   </div>
 
